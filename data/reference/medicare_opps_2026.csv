@@ -1,0 +1,211 @@
+hospital_id,ccn,code,family,label,status_indicator,apc,national_rate,wage_index,medicare_rate
+wmc,330234,45378,Colonoscopy,Colonoscopy (diagnostic),T,5311,950.1,1.3697,1160.85
+nyp_hv,330267,45378,Colonoscopy,Colonoscopy (diagnostic),T,5311,950.1,1.3697,1160.85
+nyp_wch,330101,45378,Colonoscopy,Colonoscopy (diagnostic),T,5311,950.1,1.3697,1160.85
+nwh,330162,45378,Colonoscopy,Colonoscopy (diagnostic),T,5311,950.1,1.3697,1160.85
+phelps,330261,45378,Colonoscopy,Colonoscopy (diagnostic),T,5311,950.1,1.3697,1160.85
+wph,330304,45378,Colonoscopy,Colonoscopy (diagnostic),T,5311,950.1,1.3697,1160.85
+mmv,330086,45378,Colonoscopy,Colonoscopy (diagnostic),T,5311,950.1,1.3697,1160.85
+mnr,330184,45378,Colonoscopy,Colonoscopy (diagnostic),T,5311,950.1,1.3697,1160.85
+sjr,330208,45378,Colonoscopy,Colonoscopy (diagnostic),T,5311,950.1,1.3697,1160.85
+sjmc,330006,45378,Colonoscopy,Colonoscopy (diagnostic),T,5311,950.1,1.3697,1160.85
+wmc,330234,45380,Colonoscopy,Colonoscopy with biopsy,T,5312,1222.56,1.3697,1493.75
+nyp_hv,330267,45380,Colonoscopy,Colonoscopy with biopsy,T,5312,1222.56,1.3697,1493.75
+nyp_wch,330101,45380,Colonoscopy,Colonoscopy with biopsy,T,5312,1222.56,1.3697,1493.75
+nwh,330162,45380,Colonoscopy,Colonoscopy with biopsy,T,5312,1222.56,1.3697,1493.75
+phelps,330261,45380,Colonoscopy,Colonoscopy with biopsy,T,5312,1222.56,1.3697,1493.75
+wph,330304,45380,Colonoscopy,Colonoscopy with biopsy,T,5312,1222.56,1.3697,1493.75
+mmv,330086,45380,Colonoscopy,Colonoscopy with biopsy,T,5312,1222.56,1.3697,1493.75
+mnr,330184,45380,Colonoscopy,Colonoscopy with biopsy,T,5312,1222.56,1.3697,1493.75
+sjr,330208,45380,Colonoscopy,Colonoscopy with biopsy,T,5312,1222.56,1.3697,1493.75
+sjmc,330006,45380,Colonoscopy,Colonoscopy with biopsy,T,5312,1222.56,1.3697,1493.75
+wmc,330234,45385,Colonoscopy,Colonoscopy with snare polyp removal,T,5312,1222.56,1.3697,1493.75
+nyp_hv,330267,45385,Colonoscopy,Colonoscopy with snare polyp removal,T,5312,1222.56,1.3697,1493.75
+nyp_wch,330101,45385,Colonoscopy,Colonoscopy with snare polyp removal,T,5312,1222.56,1.3697,1493.75
+nwh,330162,45385,Colonoscopy,Colonoscopy with snare polyp removal,T,5312,1222.56,1.3697,1493.75
+phelps,330261,45385,Colonoscopy,Colonoscopy with snare polyp removal,T,5312,1222.56,1.3697,1493.75
+wph,330304,45385,Colonoscopy,Colonoscopy with snare polyp removal,T,5312,1222.56,1.3697,1493.75
+mmv,330086,45385,Colonoscopy,Colonoscopy with snare polyp removal,T,5312,1222.56,1.3697,1493.75
+mnr,330184,45385,Colonoscopy,Colonoscopy with snare polyp removal,T,5312,1222.56,1.3697,1493.75
+sjr,330208,45385,Colonoscopy,Colonoscopy with snare polyp removal,T,5312,1222.56,1.3697,1493.75
+sjmc,330006,45385,Colonoscopy,Colonoscopy with snare polyp removal,T,5312,1222.56,1.3697,1493.75
+wmc,330234,G0121,Colonoscopy,Screening colonoscopy (average risk),T,5311,950.1,1.3697,1160.85
+nyp_hv,330267,G0121,Colonoscopy,Screening colonoscopy (average risk),T,5311,950.1,1.3697,1160.85
+nyp_wch,330101,G0121,Colonoscopy,Screening colonoscopy (average risk),T,5311,950.1,1.3697,1160.85
+nwh,330162,G0121,Colonoscopy,Screening colonoscopy (average risk),T,5311,950.1,1.3697,1160.85
+phelps,330261,G0121,Colonoscopy,Screening colonoscopy (average risk),T,5311,950.1,1.3697,1160.85
+wph,330304,G0121,Colonoscopy,Screening colonoscopy (average risk),T,5311,950.1,1.3697,1160.85
+mmv,330086,G0121,Colonoscopy,Screening colonoscopy (average risk),T,5311,950.1,1.3697,1160.85
+mnr,330184,G0121,Colonoscopy,Screening colonoscopy (average risk),T,5311,950.1,1.3697,1160.85
+sjr,330208,G0121,Colonoscopy,Screening colonoscopy (average risk),T,5311,950.1,1.3697,1160.85
+sjmc,330006,G0121,Colonoscopy,Screening colonoscopy (average risk),T,5311,950.1,1.3697,1160.85
+wmc,330234,G0105,Colonoscopy,Screening colonoscopy (high risk),T,5311,950.1,1.3697,1160.85
+nyp_hv,330267,G0105,Colonoscopy,Screening colonoscopy (high risk),T,5311,950.1,1.3697,1160.85
+nyp_wch,330101,G0105,Colonoscopy,Screening colonoscopy (high risk),T,5311,950.1,1.3697,1160.85
+nwh,330162,G0105,Colonoscopy,Screening colonoscopy (high risk),T,5311,950.1,1.3697,1160.85
+phelps,330261,G0105,Colonoscopy,Screening colonoscopy (high risk),T,5311,950.1,1.3697,1160.85
+wph,330304,G0105,Colonoscopy,Screening colonoscopy (high risk),T,5311,950.1,1.3697,1160.85
+mmv,330086,G0105,Colonoscopy,Screening colonoscopy (high risk),T,5311,950.1,1.3697,1160.85
+mnr,330184,G0105,Colonoscopy,Screening colonoscopy (high risk),T,5311,950.1,1.3697,1160.85
+sjr,330208,G0105,Colonoscopy,Screening colonoscopy (high risk),T,5311,950.1,1.3697,1160.85
+sjmc,330006,G0105,Colonoscopy,Screening colonoscopy (high risk),T,5311,950.1,1.3697,1160.85
+wmc,330234,45381,Colonoscopy,Colonoscopy with submucosal injection,T,5312,1222.56,1.3697,1493.75
+nyp_hv,330267,45381,Colonoscopy,Colonoscopy with submucosal injection,T,5312,1222.56,1.3697,1493.75
+nyp_wch,330101,45381,Colonoscopy,Colonoscopy with submucosal injection,T,5312,1222.56,1.3697,1493.75
+nwh,330162,45381,Colonoscopy,Colonoscopy with submucosal injection,T,5312,1222.56,1.3697,1493.75
+phelps,330261,45381,Colonoscopy,Colonoscopy with submucosal injection,T,5312,1222.56,1.3697,1493.75
+wph,330304,45381,Colonoscopy,Colonoscopy with submucosal injection,T,5312,1222.56,1.3697,1493.75
+mmv,330086,45381,Colonoscopy,Colonoscopy with submucosal injection,T,5312,1222.56,1.3697,1493.75
+mnr,330184,45381,Colonoscopy,Colonoscopy with submucosal injection,T,5312,1222.56,1.3697,1493.75
+sjr,330208,45381,Colonoscopy,Colonoscopy with submucosal injection,T,5312,1222.56,1.3697,1493.75
+sjmc,330006,45381,Colonoscopy,Colonoscopy with submucosal injection,T,5312,1222.56,1.3697,1493.75
+wmc,330234,45384,Colonoscopy,Colonoscopy with hot biopsy forceps removal,T,5312,1222.56,1.3697,1493.75
+nyp_hv,330267,45384,Colonoscopy,Colonoscopy with hot biopsy forceps removal,T,5312,1222.56,1.3697,1493.75
+nyp_wch,330101,45384,Colonoscopy,Colonoscopy with hot biopsy forceps removal,T,5312,1222.56,1.3697,1493.75
+nwh,330162,45384,Colonoscopy,Colonoscopy with hot biopsy forceps removal,T,5312,1222.56,1.3697,1493.75
+phelps,330261,45384,Colonoscopy,Colonoscopy with hot biopsy forceps removal,T,5312,1222.56,1.3697,1493.75
+wph,330304,45384,Colonoscopy,Colonoscopy with hot biopsy forceps removal,T,5312,1222.56,1.3697,1493.75
+mmv,330086,45384,Colonoscopy,Colonoscopy with hot biopsy forceps removal,T,5312,1222.56,1.3697,1493.75
+mnr,330184,45384,Colonoscopy,Colonoscopy with hot biopsy forceps removal,T,5312,1222.56,1.3697,1493.75
+sjr,330208,45384,Colonoscopy,Colonoscopy with hot biopsy forceps removal,T,5312,1222.56,1.3697,1493.75
+sjmc,330006,45384,Colonoscopy,Colonoscopy with hot biopsy forceps removal,T,5312,1222.56,1.3697,1493.75
+wmc,330234,45388,Colonoscopy,Colonoscopy with ablation,T,5312,1222.56,1.3697,1493.75
+nyp_hv,330267,45388,Colonoscopy,Colonoscopy with ablation,T,5312,1222.56,1.3697,1493.75
+nyp_wch,330101,45388,Colonoscopy,Colonoscopy with ablation,T,5312,1222.56,1.3697,1493.75
+nwh,330162,45388,Colonoscopy,Colonoscopy with ablation,T,5312,1222.56,1.3697,1493.75
+phelps,330261,45388,Colonoscopy,Colonoscopy with ablation,T,5312,1222.56,1.3697,1493.75
+wph,330304,45388,Colonoscopy,Colonoscopy with ablation,T,5312,1222.56,1.3697,1493.75
+mmv,330086,45388,Colonoscopy,Colonoscopy with ablation,T,5312,1222.56,1.3697,1493.75
+mnr,330184,45388,Colonoscopy,Colonoscopy with ablation,T,5312,1222.56,1.3697,1493.75
+sjr,330208,45388,Colonoscopy,Colonoscopy with ablation,T,5312,1222.56,1.3697,1493.75
+sjmc,330006,45388,Colonoscopy,Colonoscopy with ablation,T,5312,1222.56,1.3697,1493.75
+wmc,330234,45390,Colonoscopy,Colonoscopy with endoscopic mucosal resection,J1,5313,2835.78,1.3697,3464.81
+nyp_hv,330267,45390,Colonoscopy,Colonoscopy with endoscopic mucosal resection,J1,5313,2835.78,1.3697,3464.81
+nyp_wch,330101,45390,Colonoscopy,Colonoscopy with endoscopic mucosal resection,J1,5313,2835.78,1.3697,3464.81
+nwh,330162,45390,Colonoscopy,Colonoscopy with endoscopic mucosal resection,J1,5313,2835.78,1.3697,3464.81
+phelps,330261,45390,Colonoscopy,Colonoscopy with endoscopic mucosal resection,J1,5313,2835.78,1.3697,3464.81
+wph,330304,45390,Colonoscopy,Colonoscopy with endoscopic mucosal resection,J1,5313,2835.78,1.3697,3464.81
+mmv,330086,45390,Colonoscopy,Colonoscopy with endoscopic mucosal resection,J1,5313,2835.78,1.3697,3464.81
+mnr,330184,45390,Colonoscopy,Colonoscopy with endoscopic mucosal resection,J1,5313,2835.78,1.3697,3464.81
+sjr,330208,45390,Colonoscopy,Colonoscopy with endoscopic mucosal resection,J1,5313,2835.78,1.3697,3464.81
+sjmc,330006,45390,Colonoscopy,Colonoscopy with endoscopic mucosal resection,J1,5313,2835.78,1.3697,3464.81
+wmc,330234,43235,EGD,Upper endoscopy (EGD) (diagnostic),T,5301,926.63,1.3697,1132.18
+nyp_hv,330267,43235,EGD,Upper endoscopy (EGD) (diagnostic),T,5301,926.63,1.3697,1132.18
+nyp_wch,330101,43235,EGD,Upper endoscopy (EGD) (diagnostic),T,5301,926.63,1.3697,1132.18
+nwh,330162,43235,EGD,Upper endoscopy (EGD) (diagnostic),T,5301,926.63,1.3697,1132.18
+phelps,330261,43235,EGD,Upper endoscopy (EGD) (diagnostic),T,5301,926.63,1.3697,1132.18
+wph,330304,43235,EGD,Upper endoscopy (EGD) (diagnostic),T,5301,926.63,1.3697,1132.18
+mmv,330086,43235,EGD,Upper endoscopy (EGD) (diagnostic),T,5301,926.63,1.3697,1132.18
+mnr,330184,43235,EGD,Upper endoscopy (EGD) (diagnostic),T,5301,926.63,1.3697,1132.18
+sjr,330208,43235,EGD,Upper endoscopy (EGD) (diagnostic),T,5301,926.63,1.3697,1132.18
+sjmc,330006,43235,EGD,Upper endoscopy (EGD) (diagnostic),T,5301,926.63,1.3697,1132.18
+wmc,330234,43239,EGD,Upper endoscopy (EGD) with biopsy,T,5301,926.63,1.3697,1132.18
+nyp_hv,330267,43239,EGD,Upper endoscopy (EGD) with biopsy,T,5301,926.63,1.3697,1132.18
+nyp_wch,330101,43239,EGD,Upper endoscopy (EGD) with biopsy,T,5301,926.63,1.3697,1132.18
+nwh,330162,43239,EGD,Upper endoscopy (EGD) with biopsy,T,5301,926.63,1.3697,1132.18
+phelps,330261,43239,EGD,Upper endoscopy (EGD) with biopsy,T,5301,926.63,1.3697,1132.18
+wph,330304,43239,EGD,Upper endoscopy (EGD) with biopsy,T,5301,926.63,1.3697,1132.18
+mmv,330086,43239,EGD,Upper endoscopy (EGD) with biopsy,T,5301,926.63,1.3697,1132.18
+mnr,330184,43239,EGD,Upper endoscopy (EGD) with biopsy,T,5301,926.63,1.3697,1132.18
+sjr,330208,43239,EGD,Upper endoscopy (EGD) with biopsy,T,5301,926.63,1.3697,1132.18
+sjmc,330006,43239,EGD,Upper endoscopy (EGD) with biopsy,T,5301,926.63,1.3697,1132.18
+wmc,330234,43248,EGD,EGD with guidewire dilation,T,5301,926.63,1.3697,1132.18
+nyp_hv,330267,43248,EGD,EGD with guidewire dilation,T,5301,926.63,1.3697,1132.18
+nyp_wch,330101,43248,EGD,EGD with guidewire dilation,T,5301,926.63,1.3697,1132.18
+nwh,330162,43248,EGD,EGD with guidewire dilation,T,5301,926.63,1.3697,1132.18
+phelps,330261,43248,EGD,EGD with guidewire dilation,T,5301,926.63,1.3697,1132.18
+wph,330304,43248,EGD,EGD with guidewire dilation,T,5301,926.63,1.3697,1132.18
+mmv,330086,43248,EGD,EGD with guidewire dilation,T,5301,926.63,1.3697,1132.18
+mnr,330184,43248,EGD,EGD with guidewire dilation,T,5301,926.63,1.3697,1132.18
+sjr,330208,43248,EGD,EGD with guidewire dilation,T,5301,926.63,1.3697,1132.18
+sjmc,330006,43248,EGD,EGD with guidewire dilation,T,5301,926.63,1.3697,1132.18
+wmc,330234,43249,EGD,EGD with balloon dilation,J1,5302,1960.47,1.3697,2395.34
+nyp_hv,330267,43249,EGD,EGD with balloon dilation,J1,5302,1960.47,1.3697,2395.34
+nyp_wch,330101,43249,EGD,EGD with balloon dilation,J1,5302,1960.47,1.3697,2395.34
+nwh,330162,43249,EGD,EGD with balloon dilation,J1,5302,1960.47,1.3697,2395.34
+phelps,330261,43249,EGD,EGD with balloon dilation,J1,5302,1960.47,1.3697,2395.34
+wph,330304,43249,EGD,EGD with balloon dilation,J1,5302,1960.47,1.3697,2395.34
+mmv,330086,43249,EGD,EGD with balloon dilation,J1,5302,1960.47,1.3697,2395.34
+mnr,330184,43249,EGD,EGD with balloon dilation,J1,5302,1960.47,1.3697,2395.34
+sjr,330208,43249,EGD,EGD with balloon dilation,J1,5302,1960.47,1.3697,2395.34
+sjmc,330006,43249,EGD,EGD with balloon dilation,J1,5302,1960.47,1.3697,2395.34
+wmc,330234,43251,EGD,EGD with snare polyp removal,J1,5302,1960.47,1.3697,2395.34
+nyp_hv,330267,43251,EGD,EGD with snare polyp removal,J1,5302,1960.47,1.3697,2395.34
+nyp_wch,330101,43251,EGD,EGD with snare polyp removal,J1,5302,1960.47,1.3697,2395.34
+nwh,330162,43251,EGD,EGD with snare polyp removal,J1,5302,1960.47,1.3697,2395.34
+phelps,330261,43251,EGD,EGD with snare polyp removal,J1,5302,1960.47,1.3697,2395.34
+wph,330304,43251,EGD,EGD with snare polyp removal,J1,5302,1960.47,1.3697,2395.34
+mmv,330086,43251,EGD,EGD with snare polyp removal,J1,5302,1960.47,1.3697,2395.34
+mnr,330184,43251,EGD,EGD with snare polyp removal,J1,5302,1960.47,1.3697,2395.34
+sjr,330208,43251,EGD,EGD with snare polyp removal,J1,5302,1960.47,1.3697,2395.34
+sjmc,330006,43251,EGD,EGD with snare polyp removal,J1,5302,1960.47,1.3697,2395.34
+wmc,330234,43255,EGD,EGD with bleeding control,J1,5302,1960.47,1.3697,2395.34
+nyp_hv,330267,43255,EGD,EGD with bleeding control,J1,5302,1960.47,1.3697,2395.34
+nyp_wch,330101,43255,EGD,EGD with bleeding control,J1,5302,1960.47,1.3697,2395.34
+nwh,330162,43255,EGD,EGD with bleeding control,J1,5302,1960.47,1.3697,2395.34
+phelps,330261,43255,EGD,EGD with bleeding control,J1,5302,1960.47,1.3697,2395.34
+wph,330304,43255,EGD,EGD with bleeding control,J1,5302,1960.47,1.3697,2395.34
+mmv,330086,43255,EGD,EGD with bleeding control,J1,5302,1960.47,1.3697,2395.34
+mnr,330184,43255,EGD,EGD with bleeding control,J1,5302,1960.47,1.3697,2395.34
+sjr,330208,43255,EGD,EGD with bleeding control,J1,5302,1960.47,1.3697,2395.34
+sjmc,330006,43255,EGD,EGD with bleeding control,J1,5302,1960.47,1.3697,2395.34
+wmc,330234,43259,EUS,Upper endoscopic ultrasound (EUS),J1,5302,1960.47,1.3697,2395.34
+nyp_hv,330267,43259,EUS,Upper endoscopic ultrasound (EUS),J1,5302,1960.47,1.3697,2395.34
+nyp_wch,330101,43259,EUS,Upper endoscopic ultrasound (EUS),J1,5302,1960.47,1.3697,2395.34
+nwh,330162,43259,EUS,Upper endoscopic ultrasound (EUS),J1,5302,1960.47,1.3697,2395.34
+phelps,330261,43259,EUS,Upper endoscopic ultrasound (EUS),J1,5302,1960.47,1.3697,2395.34
+wph,330304,43259,EUS,Upper endoscopic ultrasound (EUS),J1,5302,1960.47,1.3697,2395.34
+mmv,330086,43259,EUS,Upper endoscopic ultrasound (EUS),J1,5302,1960.47,1.3697,2395.34
+mnr,330184,43259,EUS,Upper endoscopic ultrasound (EUS),J1,5302,1960.47,1.3697,2395.34
+sjr,330208,43259,EUS,Upper endoscopic ultrasound (EUS),J1,5302,1960.47,1.3697,2395.34
+sjmc,330006,43259,EUS,Upper endoscopic ultrasound (EUS),J1,5302,1960.47,1.3697,2395.34
+wmc,330234,43237,EUS,Upper EUS (limited),J1,5302,1960.47,1.3697,2395.34
+nyp_hv,330267,43237,EUS,Upper EUS (limited),J1,5302,1960.47,1.3697,2395.34
+nyp_wch,330101,43237,EUS,Upper EUS (limited),J1,5302,1960.47,1.3697,2395.34
+nwh,330162,43237,EUS,Upper EUS (limited),J1,5302,1960.47,1.3697,2395.34
+phelps,330261,43237,EUS,Upper EUS (limited),J1,5302,1960.47,1.3697,2395.34
+wph,330304,43237,EUS,Upper EUS (limited),J1,5302,1960.47,1.3697,2395.34
+mmv,330086,43237,EUS,Upper EUS (limited),J1,5302,1960.47,1.3697,2395.34
+mnr,330184,43237,EUS,Upper EUS (limited),J1,5302,1960.47,1.3697,2395.34
+sjr,330208,43237,EUS,Upper EUS (limited),J1,5302,1960.47,1.3697,2395.34
+sjmc,330006,43237,EUS,Upper EUS (limited),J1,5302,1960.47,1.3697,2395.34
+wmc,330234,43238,EUS,Upper EUS with fine-needle aspiration (limited),J1,5302,1960.47,1.3697,2395.34
+nyp_hv,330267,43238,EUS,Upper EUS with fine-needle aspiration (limited),J1,5302,1960.47,1.3697,2395.34
+nyp_wch,330101,43238,EUS,Upper EUS with fine-needle aspiration (limited),J1,5302,1960.47,1.3697,2395.34
+nwh,330162,43238,EUS,Upper EUS with fine-needle aspiration (limited),J1,5302,1960.47,1.3697,2395.34
+phelps,330261,43238,EUS,Upper EUS with fine-needle aspiration (limited),J1,5302,1960.47,1.3697,2395.34
+wph,330304,43238,EUS,Upper EUS with fine-needle aspiration (limited),J1,5302,1960.47,1.3697,2395.34
+mmv,330086,43238,EUS,Upper EUS with fine-needle aspiration (limited),J1,5302,1960.47,1.3697,2395.34
+mnr,330184,43238,EUS,Upper EUS with fine-needle aspiration (limited),J1,5302,1960.47,1.3697,2395.34
+sjr,330208,43238,EUS,Upper EUS with fine-needle aspiration (limited),J1,5302,1960.47,1.3697,2395.34
+sjmc,330006,43238,EUS,Upper EUS with fine-needle aspiration (limited),J1,5302,1960.47,1.3697,2395.34
+wmc,330234,43242,EUS,Upper EUS with fine-needle aspiration (transmural),J1,5302,1960.47,1.3697,2395.34
+nyp_hv,330267,43242,EUS,Upper EUS with fine-needle aspiration (transmural),J1,5302,1960.47,1.3697,2395.34
+nyp_wch,330101,43242,EUS,Upper EUS with fine-needle aspiration (transmural),J1,5302,1960.47,1.3697,2395.34
+nwh,330162,43242,EUS,Upper EUS with fine-needle aspiration (transmural),J1,5302,1960.47,1.3697,2395.34
+phelps,330261,43242,EUS,Upper EUS with fine-needle aspiration (transmural),J1,5302,1960.47,1.3697,2395.34
+wph,330304,43242,EUS,Upper EUS with fine-needle aspiration (transmural),J1,5302,1960.47,1.3697,2395.34
+mmv,330086,43242,EUS,Upper EUS with fine-needle aspiration (transmural),J1,5302,1960.47,1.3697,2395.34
+mnr,330184,43242,EUS,Upper EUS with fine-needle aspiration (transmural),J1,5302,1960.47,1.3697,2395.34
+sjr,330208,43242,EUS,Upper EUS with fine-needle aspiration (transmural),J1,5302,1960.47,1.3697,2395.34
+sjmc,330006,43242,EUS,Upper EUS with fine-needle aspiration (transmural),J1,5302,1960.47,1.3697,2395.34
+wmc,330234,45391,EUS,Colonoscopy with endoscopic ultrasound,T,5312,1222.56,1.3697,1493.75
+nyp_hv,330267,45391,EUS,Colonoscopy with endoscopic ultrasound,T,5312,1222.56,1.3697,1493.75
+nyp_wch,330101,45391,EUS,Colonoscopy with endoscopic ultrasound,T,5312,1222.56,1.3697,1493.75
+nwh,330162,45391,EUS,Colonoscopy with endoscopic ultrasound,T,5312,1222.56,1.3697,1493.75
+phelps,330261,45391,EUS,Colonoscopy with endoscopic ultrasound,T,5312,1222.56,1.3697,1493.75
+wph,330304,45391,EUS,Colonoscopy with endoscopic ultrasound,T,5312,1222.56,1.3697,1493.75
+mmv,330086,45391,EUS,Colonoscopy with endoscopic ultrasound,T,5312,1222.56,1.3697,1493.75
+mnr,330184,45391,EUS,Colonoscopy with endoscopic ultrasound,T,5312,1222.56,1.3697,1493.75
+sjr,330208,45391,EUS,Colonoscopy with endoscopic ultrasound,T,5312,1222.56,1.3697,1493.75
+sjmc,330006,45391,EUS,Colonoscopy with endoscopic ultrasound,T,5312,1222.56,1.3697,1493.75
+wmc,330234,45392,EUS,Colonoscopy with EUS and fine-needle aspiration,T,5312,1222.56,1.3697,1493.75
+nyp_hv,330267,45392,EUS,Colonoscopy with EUS and fine-needle aspiration,T,5312,1222.56,1.3697,1493.75
+nyp_wch,330101,45392,EUS,Colonoscopy with EUS and fine-needle aspiration,T,5312,1222.56,1.3697,1493.75
+nwh,330162,45392,EUS,Colonoscopy with EUS and fine-needle aspiration,T,5312,1222.56,1.3697,1493.75
+phelps,330261,45392,EUS,Colonoscopy with EUS and fine-needle aspiration,T,5312,1222.56,1.3697,1493.75
+wph,330304,45392,EUS,Colonoscopy with EUS and fine-needle aspiration,T,5312,1222.56,1.3697,1493.75
+mmv,330086,45392,EUS,Colonoscopy with EUS and fine-needle aspiration,T,5312,1222.56,1.3697,1493.75
+mnr,330184,45392,EUS,Colonoscopy with EUS and fine-needle aspiration,T,5312,1222.56,1.3697,1493.75
+sjr,330208,45392,EUS,Colonoscopy with EUS and fine-needle aspiration,T,5312,1222.56,1.3697,1493.75
+sjmc,330006,45392,EUS,Colonoscopy with EUS and fine-needle aspiration,T,5312,1222.56,1.3697,1493.75

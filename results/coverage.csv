@@ -1,0 +1,11 @@
+hospital_id,gi_rows,rows_with_dollar,rows_percentage_only,rows_algorithm_only,rows_no_payer,core_codes_listed
+mmv,7365,7249,116,0,0,11
+mnr,3513,3309,204,0,0,11
+nwh,1080,1080,0,0,0,10
+nyp_hv,624,624,0,0,0,8
+nyp_wch,1029,840,189,0,0,11
+phelps,1080,1080,0,0,0,10
+sjmc,636,636,0,0,0,11
+sjr,356,207,25,124,0,6
+wmc,1275,1015,260,0,0,11
+wph,3419,3400,19,0,0,11

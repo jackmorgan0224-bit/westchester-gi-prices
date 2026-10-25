@@ -1,0 +1,121 @@
+check_id,rule,description,hospital_id,rows_in_scope,rows_failing,pct_failing
+C1a,CMS v3.0 data dictionary #1,"A payer/plan row carries a negotiated charge (dollar, percentage, or algorithm)",mmv,7365,0,0.0
+C1a,CMS v3.0 data dictionary #1,"A payer/plan row carries a negotiated charge (dollar, percentage, or algorithm)",mnr,3513,0,0.0
+C1a,CMS v3.0 data dictionary #1,"A payer/plan row carries a negotiated charge (dollar, percentage, or algorithm)",nwh,1080,0,0.0
+C1a,CMS v3.0 data dictionary #1,"A payer/plan row carries a negotiated charge (dollar, percentage, or algorithm)",nyp_hv,624,0,0.0
+C1a,CMS v3.0 data dictionary #1,"A payer/plan row carries a negotiated charge (dollar, percentage, or algorithm)",nyp_wch,1029,0,0.0
+C1a,CMS v3.0 data dictionary #1,"A payer/plan row carries a negotiated charge (dollar, percentage, or algorithm)",phelps,1080,0,0.0
+C1a,CMS v3.0 data dictionary #1,"A payer/plan row carries a negotiated charge (dollar, percentage, or algorithm)",sjmc,636,0,0.0
+C1a,CMS v3.0 data dictionary #1,"A payer/plan row carries a negotiated charge (dollar, percentage, or algorithm)",sjr,356,0,0.0
+C1a,CMS v3.0 data dictionary #1,"A payer/plan row carries a negotiated charge (dollar, percentage, or algorithm)",wmc,1275,0,0.0
+C1a,CMS v3.0 data dictionary #1,"A payer/plan row carries a negotiated charge (dollar, percentage, or algorithm)",wph,3419,0,0.0
+C1b,CMS v3.0 data dictionary #1,"A negotiated charge has a payer name, plan name, and methodology",mmv,7365,0,0.0
+C1b,CMS v3.0 data dictionary #1,"A negotiated charge has a payer name, plan name, and methodology",mnr,3513,0,0.0
+C1b,CMS v3.0 data dictionary #1,"A negotiated charge has a payer name, plan name, and methodology",nwh,1080,0,0.0
+C1b,CMS v3.0 data dictionary #1,"A negotiated charge has a payer name, plan name, and methodology",nyp_hv,624,0,0.0
+C1b,CMS v3.0 data dictionary #1,"A negotiated charge has a payer name, plan name, and methodology",nyp_wch,1029,0,0.0
+C1b,CMS v3.0 data dictionary #1,"A negotiated charge has a payer name, plan name, and methodology",phelps,1080,0,0.0
+C1b,CMS v3.0 data dictionary #1,"A negotiated charge has a payer name, plan name, and methodology",sjmc,636,0,0.0
+C1b,CMS v3.0 data dictionary #1,"A negotiated charge has a payer name, plan name, and methodology",sjr,356,0,0.0
+C1b,CMS v3.0 data dictionary #1,"A negotiated charge has a payer name, plan name, and methodology",wmc,1275,0,0.0
+C1b,CMS v3.0 data dictionary #1,"A negotiated charge has a payer name, plan name, and methodology",wph,3419,0,0.0
+C4,CMS v3.0 data dictionary #4,Methodology 'other' is explained in the notes,mmv,601,0,0.0
+C4,CMS v3.0 data dictionary #4,Methodology 'other' is explained in the notes,mnr,84,0,0.0
+C4,CMS v3.0 data dictionary #4,Methodology 'other' is explained in the notes,nwh,0,0,
+C4,CMS v3.0 data dictionary #4,Methodology 'other' is explained in the notes,nyp_hv,0,0,
+C4,CMS v3.0 data dictionary #4,Methodology 'other' is explained in the notes,nyp_wch,0,0,
+C4,CMS v3.0 data dictionary #4,Methodology 'other' is explained in the notes,phelps,0,0,
+C4,CMS v3.0 data dictionary #4,Methodology 'other' is explained in the notes,sjmc,0,0,
+C4,CMS v3.0 data dictionary #4,Methodology 'other' is explained in the notes,sjr,265,0,0.0
+C4,CMS v3.0 data dictionary #4,Methodology 'other' is explained in the notes,wmc,3,0,0.0
+C4,CMS v3.0 data dictionary #4,Methodology 'other' is explained in the notes,wph,525,0,0.0
+C5,CMS v3.0 data dictionary #5,"Each item has at least one charge (gross, cash, or negotiated)",mmv,7365,0,0.0
+C5,CMS v3.0 data dictionary #5,"Each item has at least one charge (gross, cash, or negotiated)",mnr,3513,0,0.0
+C5,CMS v3.0 data dictionary #5,"Each item has at least one charge (gross, cash, or negotiated)",nwh,1080,0,0.0
+C5,CMS v3.0 data dictionary #5,"Each item has at least one charge (gross, cash, or negotiated)",nyp_hv,624,0,0.0
+C5,CMS v3.0 data dictionary #5,"Each item has at least one charge (gross, cash, or negotiated)",nyp_wch,1029,0,0.0
+C5,CMS v3.0 data dictionary #5,"Each item has at least one charge (gross, cash, or negotiated)",phelps,1080,0,0.0
+C5,CMS v3.0 data dictionary #5,"Each item has at least one charge (gross, cash, or negotiated)",sjmc,636,0,0.0
+C5,CMS v3.0 data dictionary #5,"Each item has at least one charge (gross, cash, or negotiated)",sjr,356,0,0.0
+C5,CMS v3.0 data dictionary #5,"Each item has at least one charge (gross, cash, or negotiated)",wmc,1275,0,0.0
+C5,CMS v3.0 data dictionary #5,"Each item has at least one charge (gross, cash, or negotiated)",wph,3419,0,0.0
+C6,CMS v3.0 data dictionary #6,A negotiated dollar amount comes with the de-identified min and max,mmv,7249,0,0.0
+C6,CMS v3.0 data dictionary #6,A negotiated dollar amount comes with the de-identified min and max,mnr,3309,0,0.0
+C6,CMS v3.0 data dictionary #6,A negotiated dollar amount comes with the de-identified min and max,nwh,1080,0,0.0
+C6,CMS v3.0 data dictionary #6,A negotiated dollar amount comes with the de-identified min and max,nyp_hv,624,0,0.0
+C6,CMS v3.0 data dictionary #6,A negotiated dollar amount comes with the de-identified min and max,nyp_wch,840,0,0.0
+C6,CMS v3.0 data dictionary #6,A negotiated dollar amount comes with the de-identified min and max,phelps,1080,0,0.0
+C6,CMS v3.0 data dictionary #6,A negotiated dollar amount comes with the de-identified min and max,sjmc,636,0,0.0
+C6,CMS v3.0 data dictionary #6,A negotiated dollar amount comes with the de-identified min and max,sjr,207,0,0.0
+C6,CMS v3.0 data dictionary #6,A negotiated dollar amount comes with the de-identified min and max,wmc,1015,0,0.0
+C6,CMS v3.0 data dictionary #6,A negotiated dollar amount comes with the de-identified min and max,wph,3400,0,0.0
+C7,CMS v3.0 data dictionary #7,A percentage or algorithm rate comes with a count of allowed amounts,mmv,116,0,0.0
+C7,CMS v3.0 data dictionary #7,A percentage or algorithm rate comes with a count of allowed amounts,mnr,204,0,0.0
+C7,CMS v3.0 data dictionary #7,A percentage or algorithm rate comes with a count of allowed amounts,nwh,0,0,
+C7,CMS v3.0 data dictionary #7,A percentage or algorithm rate comes with a count of allowed amounts,nyp_hv,0,0,
+C7,CMS v3.0 data dictionary #7,A percentage or algorithm rate comes with a count of allowed amounts,nyp_wch,189,0,0.0
+C7,CMS v3.0 data dictionary #7,A percentage or algorithm rate comes with a count of allowed amounts,phelps,0,0,
+C7,CMS v3.0 data dictionary #7,A percentage or algorithm rate comes with a count of allowed amounts,sjmc,0,0,
+C7,CMS v3.0 data dictionary #7,A percentage or algorithm rate comes with a count of allowed amounts,sjr,149,0,0.0
+C7,CMS v3.0 data dictionary #7,A percentage or algorithm rate comes with a count of allowed amounts,wmc,263,0,0.0
+C7,CMS v3.0 data dictionary #7,A percentage or algorithm rate comes with a count of allowed amounts,wph,19,0,0.0
+C8,CMS v3.0 data dictionary #8,A percentage or algorithm rate comes with 10th/median/90th percentile allowed amounts (unless count is 0),mmv,0,0,
+C8,CMS v3.0 data dictionary #8,A percentage or algorithm rate comes with 10th/median/90th percentile allowed amounts (unless count is 0),mnr,0,0,
+C8,CMS v3.0 data dictionary #8,A percentage or algorithm rate comes with 10th/median/90th percentile allowed amounts (unless count is 0),nwh,0,0,
+C8,CMS v3.0 data dictionary #8,A percentage or algorithm rate comes with 10th/median/90th percentile allowed amounts (unless count is 0),nyp_hv,0,0,
+C8,CMS v3.0 data dictionary #8,A percentage or algorithm rate comes with 10th/median/90th percentile allowed amounts (unless count is 0),nyp_wch,11,0,0.0
+C8,CMS v3.0 data dictionary #8,A percentage or algorithm rate comes with 10th/median/90th percentile allowed amounts (unless count is 0),phelps,0,0,
+C8,CMS v3.0 data dictionary #8,A percentage or algorithm rate comes with 10th/median/90th percentile allowed amounts (unless count is 0),sjmc,0,0,
+C8,CMS v3.0 data dictionary #8,A percentage or algorithm rate comes with 10th/median/90th percentile allowed amounts (unless count is 0),sjr,3,0,0.0
+C8,CMS v3.0 data dictionary #8,A percentage or algorithm rate comes with 10th/median/90th percentile allowed amounts (unless count is 0),wmc,7,0,0.0
+C8,CMS v3.0 data dictionary #8,A percentage or algorithm rate comes with 10th/median/90th percentile allowed amounts (unless count is 0),wph,0,0,
+C9,CMS v3.0 data dictionary #9,A count of 0 allowed amounts is explained in the notes,mmv,116,0,0.0
+C9,CMS v3.0 data dictionary #9,A count of 0 allowed amounts is explained in the notes,mnr,204,0,0.0
+C9,CMS v3.0 data dictionary #9,A count of 0 allowed amounts is explained in the notes,nwh,0,0,
+C9,CMS v3.0 data dictionary #9,A count of 0 allowed amounts is explained in the notes,nyp_hv,0,0,
+C9,CMS v3.0 data dictionary #9,A count of 0 allowed amounts is explained in the notes,nyp_wch,178,0,0.0
+C9,CMS v3.0 data dictionary #9,A count of 0 allowed amounts is explained in the notes,phelps,0,0,
+C9,CMS v3.0 data dictionary #9,A count of 0 allowed amounts is explained in the notes,sjmc,0,0,
+C9,CMS v3.0 data dictionary #9,A count of 0 allowed amounts is explained in the notes,sjr,146,0,0.0
+C9,CMS v3.0 data dictionary #9,A count of 0 allowed amounts is explained in the notes,wmc,256,0,0.0
+C9,CMS v3.0 data dictionary #9,A count of 0 allowed amounts is explained in the notes,wph,19,0,0.0
+C10,CMS v3.0 data dictionary (count format),"Count of allowed amounts is a whole number, or exactly '1 through 10' for 1-10",mmv,116,0,0.0
+C10,CMS v3.0 data dictionary (count format),"Count of allowed amounts is a whole number, or exactly '1 through 10' for 1-10",mnr,204,0,0.0
+C10,CMS v3.0 data dictionary (count format),"Count of allowed amounts is a whole number, or exactly '1 through 10' for 1-10",nwh,0,0,
+C10,CMS v3.0 data dictionary (count format),"Count of allowed amounts is a whole number, or exactly '1 through 10' for 1-10",nyp_hv,0,0,
+C10,CMS v3.0 data dictionary (count format),"Count of allowed amounts is a whole number, or exactly '1 through 10' for 1-10",nyp_wch,189,0,0.0
+C10,CMS v3.0 data dictionary (count format),"Count of allowed amounts is a whole number, or exactly '1 through 10' for 1-10",phelps,0,0,
+C10,CMS v3.0 data dictionary (count format),"Count of allowed amounts is a whole number, or exactly '1 through 10' for 1-10",sjmc,0,0,
+C10,CMS v3.0 data dictionary (count format),"Count of allowed amounts is a whole number, or exactly '1 through 10' for 1-10",sjr,149,0,0.0
+C10,CMS v3.0 data dictionary (count format),"Count of allowed amounts is a whole number, or exactly '1 through 10' for 1-10",wmc,263,0,0.0
+C10,CMS v3.0 data dictionary (count format),"Count of allowed amounts is a whole number, or exactly '1 through 10' for 1-10",wph,19,0,0.0
+U1,Usability (attestation),A percent-of-charges rate can be turned into dollars: the item publishes a gross charge,mmv,116,116,100.0
+U1,Usability (attestation),A percent-of-charges rate can be turned into dollars: the item publishes a gross charge,mnr,204,204,100.0
+U1,Usability (attestation),A percent-of-charges rate can be turned into dollars: the item publishes a gross charge,nwh,0,0,
+U1,Usability (attestation),A percent-of-charges rate can be turned into dollars: the item publishes a gross charge,nyp_hv,0,0,
+U1,Usability (attestation),A percent-of-charges rate can be turned into dollars: the item publishes a gross charge,nyp_wch,189,189,100.0
+U1,Usability (attestation),A percent-of-charges rate can be turned into dollars: the item publishes a gross charge,phelps,0,0,
+U1,Usability (attestation),A percent-of-charges rate can be turned into dollars: the item publishes a gross charge,sjmc,0,0,
+U1,Usability (attestation),A percent-of-charges rate can be turned into dollars: the item publishes a gross charge,sjr,25,0,0.0
+U1,Usability (attestation),A percent-of-charges rate can be turned into dollars: the item publishes a gross charge,wmc,260,260,100.0
+U1,Usability (attestation),A percent-of-charges rate can be turned into dollars: the item publishes a gross charge,wph,19,19,100.0
+U1b,Usability (attestation),...and the hospital publishes a gross charge for that procedure code on at least one other row,mmv,116,104,89.7
+U1b,Usability (attestation),...and the hospital publishes a gross charge for that procedure code on at least one other row,mnr,204,204,100.0
+U1b,Usability (attestation),...and the hospital publishes a gross charge for that procedure code on at least one other row,nwh,0,0,
+U1b,Usability (attestation),...and the hospital publishes a gross charge for that procedure code on at least one other row,nyp_hv,0,0,
+U1b,Usability (attestation),...and the hospital publishes a gross charge for that procedure code on at least one other row,nyp_wch,189,189,100.0
+U1b,Usability (attestation),...and the hospital publishes a gross charge for that procedure code on at least one other row,phelps,0,0,
+U1b,Usability (attestation),...and the hospital publishes a gross charge for that procedure code on at least one other row,sjmc,0,0,
+U1b,Usability (attestation),...and the hospital publishes a gross charge for that procedure code on at least one other row,sjr,25,0,0.0
+U1b,Usability (attestation),...and the hospital publishes a gross charge for that procedure code on at least one other row,wmc,260,224,86.2
+U1b,Usability (attestation),...and the hospital publishes a gross charge for that procedure code on at least one other row,wph,19,1,5.3
+U2,Usability (plausibility),"A percentage rate is plausible (at or below 1,000%)",mmv,116,0,0.0
+U2,Usability (plausibility),"A percentage rate is plausible (at or below 1,000%)",mnr,204,0,0.0
+U2,Usability (plausibility),"A percentage rate is plausible (at or below 1,000%)",nwh,0,0,
+U2,Usability (plausibility),"A percentage rate is plausible (at or below 1,000%)",nyp_hv,0,0,
+U2,Usability (plausibility),"A percentage rate is plausible (at or below 1,000%)",nyp_wch,189,0,0.0
+U2,Usability (plausibility),"A percentage rate is plausible (at or below 1,000%)",phelps,0,0,
+U2,Usability (plausibility),"A percentage rate is plausible (at or below 1,000%)",sjmc,0,0,
+U2,Usability (plausibility),"A percentage rate is plausible (at or below 1,000%)",sjr,25,0,0.0
+U2,Usability (plausibility),"A percentage rate is plausible (at or below 1,000%)",wmc,260,134,51.5
+U2,Usability (plausibility),"A percentage rate is plausible (at or below 1,000%)",wph,19,0,0.0

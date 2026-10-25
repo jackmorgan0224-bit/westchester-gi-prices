@@ -1,0 +1,13 @@
+# Raw hospital files are large (1.3 GB); rebuild with src/fetch_mrfs.py
+data/raw/
+data/interim/
+data/reference/cms_dl/
+data/*.duckdb
+data/*.duckdb.wal
+
+# Leftover local node tooling from testing the CMS validator (v2-only)
+tools/
+
+__pycache__/
+.venv/
+.pytest_cache/

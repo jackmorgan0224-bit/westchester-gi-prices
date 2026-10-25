@@ -1,0 +1,11 @@
+hospital_id,format,version,last_updated_on,days_old_at_download,attester_name,listed_in_cms_hpt_txt,contact_in_cms_hpt_txt,template_v3,date_valid_format,updated_within_12_months,attestation_confirmed,attester_name_present,type_2_npi_present,all_pass
+wmc,CSV,3.0.0,2026-07-28,89,Michael Burke,True,True,True,True,True,True,True,True,True
+nyp_hv,JSON,3.0.0,2026-03-31,208,William Farrell,True,True,True,True,True,True,True,True,True
+nyp_wch,JSON,3.0.0,2026-03-31,208,William Farrell,True,True,True,True,True,True,True,True,True
+nwh,JSON,3.0.0,2026-03-31,208,Matthew Jelavic,True,True,True,True,True,True,True,True,True
+phelps,JSON,3.0.0,2026-03-31,208,Matthew Jelavic,True,True,True,True,True,True,True,True,True
+wph,CSV,3.0.0,9/28/2026,27,Prabhjot Grewal,True,True,True,True,True,True,True,True,True
+mmv,CSV,3.0.0,2026-09-28,27,Prabhjot Grewal,True,True,True,True,True,True,True,True,True
+mnr,CSV,3.0.0,2026-09-28,27,Prabhjot Grewal,True,True,True,True,True,True,True,True,True
+sjr,CSV,3.0.0,3/27/2026,212,"Sabrina Silvera, Senior Director of Revenue Cycle",True,True,True,True,True,True,True,True,True
+sjmc,CSV,3.0.0,2026-07-13,104,Michael J. Spicer,True,True,True,True,True,True,True,True,True

@@ -1,0 +1,11 @@
+check,status,detail
+all 10 hospitals extracted,PASS,10 of 10
+no rows lost joining to gi_codes,PASS,20377 of 20377
+every payer/plan has a family and segment,PASS,0 unclassified rows
+Medicare benchmark for every hospital x code,PASS,210 rows
+benchmark 45378 = 950.10 x (0.6 x 1.3697 + 0.4),PASS,1160.85
+negotiated unique per hospital x code x payer x plan,PASS,9903 rows
+"negotiated dollars positive, multiples finite",PASS,383.0 to 29019.0
+each hospital has Medicare Advantage and Medicaid/commercial rates,PASS,10 hospitals
+every published dollar amount parsed as a number,PASS,0 unparsed
+duplicate lines that disagree are under 5% of rates,PASS,244 of 9903 rates (median used)

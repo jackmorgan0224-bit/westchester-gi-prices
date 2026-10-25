@@ -1,0 +1,45 @@
+hospital_id,code,payer_name,plan_name,payer_family,segment,case_rate,fee_schedule_line,case_rate_x_line
+mmv,43235,Aetna,Commercial,Aetna,Commercial,3885.0,908.67,4.28
+mmv,43235,Aetna,ASA,Aetna,Commercial,4346.0,908.67,4.78
+mmv,45378,Aetna,Commercial,Aetna,Commercial,3885.0,1075.02,3.61
+mmv,45378,Aetna,ASA,Aetna,Commercial,4346.0,1075.02,4.04
+wmc,43235,BEACON COMMERCIAL,BEACON COMMERCIAL,Other,Behavioral carve-out,386.0,1464.62,0.26
+wmc,43235,MAGNACARE PREFERRED,MAGNACARE PREFERRED,Rental network,Rental network,4294.0,4294.0,1.0
+wmc,43235,MAGNACARE STANDARD,MAGNACARE STANDARD,Rental network,Rental network,5006.0,5006.0,1.0
+wmc,43235,UHC COMPASS,UHC COMPASS,UnitedHealthcare,Commercial,6167.0,2216.0,2.78
+wmc,43235,UHC Commercial,UHC Commercial,UnitedHealthcare,Commercial,7255.0,2607.0,2.78
+wmc,43235,UHC EMPIRE,UHC EMPIRE,UnitedHealthcare,Commercial,7255.0,2607.0,2.78
+wmc,43235,UHC EXCHANGE,UHC EXCHANGE,UnitedHealthcare,Exchange (individual/small group),6167.0,2216.0,2.78
+wmc,43235,VALUE OPTIONS (Non-HMO),VALUE OPTIONS (Non-HMO),Other,Behavioral carve-out,386.0,6098.74,0.06
+wmc,43235,VALUE OPTIONS COMM (CHCS),VALUE OPTIONS COMM (CHCS),Other,Behavioral carve-out,383.0,6098.74,0.06
+wmc,43235,VALUE OPTIONS MEDICARE (CHCS),VALUE OPTIONS MEDICARE (CHCS),Other,Behavioral carve-out,383.0,4065.83,0.09
+wmc,43239,BEACON COMMERCIAL,BEACON COMMERCIAL,Other,Behavioral carve-out,386.0,1464.62,0.26
+wmc,43239,MAGNACARE PREFERRED,MAGNACARE PREFERRED,Rental network,Rental network,4294.0,4294.0,1.0
+wmc,43239,MAGNACARE STANDARD,MAGNACARE STANDARD,Rental network,Rental network,5006.0,5006.0,1.0
+wmc,43239,UHC COMPASS,UHC COMPASS,UnitedHealthcare,Commercial,6167.0,2216.0,2.78
+wmc,43239,UHC Commercial,UHC Commercial,UnitedHealthcare,Commercial,7255.0,2607.0,2.78
+wmc,43239,UHC EMPIRE,UHC EMPIRE,UnitedHealthcare,Commercial,7255.0,2607.0,2.78
+wmc,43239,UHC EXCHANGE,UHC EXCHANGE,UnitedHealthcare,Exchange (individual/small group),6167.0,2216.0,2.78
+wmc,43239,VALUE OPTIONS (Non-HMO),VALUE OPTIONS (Non-HMO),Other,Behavioral carve-out,386.0,6098.74,0.06
+wmc,43239,VALUE OPTIONS COMM (CHCS),VALUE OPTIONS COMM (CHCS),Other,Behavioral carve-out,383.0,6098.74,0.06
+wmc,43239,VALUE OPTIONS MEDICARE (CHCS),VALUE OPTIONS MEDICARE (CHCS),Other,Behavioral carve-out,383.0,4065.83,0.09
+wph,43235,Elderplan,Medicare,Other,Medicare Advantage,1335.97,163.74,8.16
+wph,43235,HealthFirst,Essential Plan 3 & 4,Healthfirst,Essential Plan,867.77,134.6,6.45
+wph,43237,Elderplan,Medicare,Other,Medicare Advantage,2826.5,257.71,10.97
+wph,43237,HealthFirst,Essential Plan 3 & 4,Healthfirst,Essential Plan,867.77,211.85,4.1
+wph,43238,Elderplan,Medicare,Other,Medicare Advantage,2826.5,307.26,9.2
+wph,43238,HealthFirst,Essential Plan 3 & 4,Healthfirst,Essential Plan,867.77,252.58,3.44
+wph,43239,Elderplan,Medicare,Other,Medicare Advantage,1335.97,183.35,7.29
+wph,43239,HealthFirst,Essential Plan 3 & 4,Healthfirst,Essential Plan,867.77,150.72,5.76
+wph,43242,Elderplan,Medicare,Other,Medicare Advantage,2826.5,345.53,8.18
+wph,43242,HealthFirst,Essential Plan 3 & 4,Healthfirst,Essential Plan,867.77,284.04,3.06
+wph,43259,Elderplan,Medicare,Other,Medicare Advantage,2826.5,298.63,9.46
+wph,43259,HealthFirst,Essential Plan 3 & 4,Healthfirst,Essential Plan,867.77,245.49,3.53
+wph,45378,Elderplan,Medicare,Other,Medicare Advantage,1369.8,245.86,5.57
+wph,45378,HealthFirst,Essential Plan 3 & 4,Healthfirst,Essential Plan,833.6,202.11,4.12
+wph,45380,Elderplan,Medicare,Other,Medicare Advantage,1762.63,267.4,6.59
+wph,45380,HealthFirst,Essential Plan 3 & 4,Healthfirst,Essential Plan,833.6,219.81,3.79
+wph,45385,Elderplan,Medicare,Other,Medicare Advantage,1762.63,335.63,5.25
+wph,45385,HealthFirst,Essential Plan 3 & 4,Healthfirst,Essential Plan,833.6,275.9,3.02
+wph,G0105,Elderplan,Medicare,Other,Medicare Advantage,1369.8,245.86,5.57
+wph,G0121,Elderplan,Medicare,Other,Medicare Advantage,1369.8,246.6,5.55

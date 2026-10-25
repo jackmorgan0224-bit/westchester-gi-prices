@@ -1,0 +1,11 @@
+hospital_id,hospital_name,system,town,index_url,location_name
+wmc,Westchester Medical Center,WMCHealth,Valhalla,https://www.wmchealth.org/cms-hpt.txt,Westchester Medical Center
+nyp_hv,NewYork-Presbyterian Hudson Valley Hospital,NewYork-Presbyterian,Cortlandt Manor,https://www.nyp.org/cms-hpt.txt,NewYork-Presbyterian Hudson Valley Hospital
+nyp_wch,NewYork-Presbyterian Westchester,NewYork-Presbyterian,Bronxville,https://www.nyp.org/cms-hpt.txt,NewYork-Presbyterian Westchester
+nwh,Northern Westchester Hospital,Northwell Health,Mount Kisco,https://www.northwell.edu/cms-hpt.txt,Northern Westchester Hospital
+phelps,Phelps Hospital,Northwell Health,Sleepy Hollow,https://www.northwell.edu/cms-hpt.txt,Phelps Hospital
+wph,White Plains Hospital,Montefiore Einstein,White Plains,https://wphospital.org/cms-hpt.txt,White Plains Hospital
+mmv,Montefiore Mount Vernon Hospital,Montefiore Einstein,Mount Vernon,https://www.montefiore.org/cms-hpt.txt,Montefiore Mount Vernon Hospital
+mnr,Montefiore New Rochelle Hospital,Montefiore Einstein,New Rochelle,https://www.montefiorenewrochelle.org/cms-hpt.txt,Montefiore New Rochelle
+sjr,St. John's Riverside Hospital,St. John's Riverside,Yonkers,https://www.riversidehealth.org/cms-hpt.txt,St. John's Riverside Hospital
+sjmc,St. Joseph's Medical Center,St. Joseph's,Yonkers,https://www.saintjosephs.org/cms-hpt.txt,St. Joseph's Medical Center

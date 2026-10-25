@@ -1,0 +1,22 @@
+code,family,label,core
+45378,Colonoscopy,Colonoscopy (diagnostic),1
+45380,Colonoscopy,Colonoscopy with biopsy,1
+45385,Colonoscopy,Colonoscopy with snare polyp removal,1
+G0121,Colonoscopy,Screening colonoscopy (average risk),1
+G0105,Colonoscopy,Screening colonoscopy (high risk),1
+45381,Colonoscopy,Colonoscopy with submucosal injection,0
+45384,Colonoscopy,Colonoscopy with hot biopsy forceps removal,0
+45388,Colonoscopy,Colonoscopy with ablation,0
+45390,Colonoscopy,Colonoscopy with endoscopic mucosal resection,0
+43235,EGD,Upper endoscopy (EGD) (diagnostic),1
+43239,EGD,Upper endoscopy (EGD) with biopsy,1
+43248,EGD,EGD with guidewire dilation,0
+43249,EGD,EGD with balloon dilation,0
+43251,EGD,EGD with snare polyp removal,0
+43255,EGD,EGD with bleeding control,0
+43259,EUS,Upper endoscopic ultrasound (EUS),1
+43237,EUS,Upper EUS (limited),1
+43238,EUS,Upper EUS with fine-needle aspiration (limited),1
+43242,EUS,Upper EUS with fine-needle aspiration (transmural),1
+45391,EUS,Colonoscopy with endoscopic ultrasound,0
+45392,EUS,Colonoscopy with EUS and fine-needle aspiration,0

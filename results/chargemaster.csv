@@ -1,0 +1,101 @@
+hospital_id,hospital_name,proc_family,code,label,gross_charge,discounted_cash,min_negotiated,max_negotiated,medicare_rate,gross_x_medicare,cash_x_medicare,cash_share_of_gross
+mmv,Montefiore Mount Vernon Hospital,EGD,43235,Upper endoscopy (EGD) (diagnostic),1595.0,1036.75,124.57,13302.0,1132.18,1.41,0.92,0.65
+mnr,Montefiore New Rochelle Hospital,EGD,43235,Upper endoscopy (EGD) (diagnostic),,,462.15,18107.0,1132.18,,,
+nwh,Northern Westchester Hospital,EGD,43235,Upper endoscopy (EGD) (diagnostic),,3675.0,1027.3,7489.0,1132.18,,3.25,
+nyp_wch,NewYork-Presbyterian Westchester,EGD,43235,Upper endoscopy (EGD) (diagnostic),,,1053.94,12700.68,1132.18,,,
+phelps,Phelps Hospital,EGD,43235,Upper endoscopy (EGD) (diagnostic),,3675.0,1027.3,9139.0,1132.18,,3.25,
+sjmc,St. Joseph's Medical Center,EGD,43235,Upper endoscopy (EGD) (diagnostic),,926.63,926.63,2341.24,1132.18,,0.82,
+wmc,Westchester Medical Center,EGD,43235,Upper endoscopy (EGD) (diagnostic),3951.0,3951.0,788.64,5006.0,1132.18,3.49,3.49,1.0
+wph,White Plains Hospital,EGD,43235,Upper endoscopy (EGD) (diagnostic),4235.0,,134.6,29019.0,1132.18,3.74,,
+mmv,Montefiore Mount Vernon Hospital,EUS,43237,Upper EUS (limited),,,198.54,13302.0,2395.34,,,
+mnr,Montefiore New Rochelle Hospital,EUS,43237,Upper EUS (limited),,,510.31,18107.0,2395.34,,,
+nwh,Northern Westchester Hospital,EUS,43237,Upper EUS (limited),,3675.0,1040.48,8370.0,2395.34,,1.53,
+nyp_hv,NewYork-Presbyterian Hudson Valley Hospital,EUS,43237,Upper EUS (limited),4275.28,3206.46,1132.96,9686.11,2395.34,1.78,1.34,0.75
+nyp_wch,NewYork-Presbyterian Westchester,EUS,43237,Upper EUS (limited),,,1132.96,13583.76,2395.34,,,
+phelps,Phelps Hospital,EUS,43237,Upper EUS (limited),,3675.0,1040.48,17578.69,2395.34,,1.53,
+sjmc,St. Joseph's Medical Center,EUS,43237,Upper EUS (limited),,1960.47,1040.55,3860.24,2395.34,,0.82,
+wmc,Westchester Medical Center,EUS,43237,Upper EUS (limited),,,3670.0,8355.0,2395.34,,,
+wph,White Plains Hospital,EUS,43237,Upper EUS (limited),7082.0,,211.85,29019.0,2395.34,2.96,,
+mmv,Montefiore Mount Vernon Hospital,EUS,43238,Upper EUS with fine-needle aspiration (limited),,,235.88,13302.0,2395.34,,,
+mnr,Montefiore New Rochelle Hospital,EUS,43238,Upper EUS with fine-needle aspiration (limited),,,510.31,18107.0,2395.34,,,
+nwh,Northern Westchester Hospital,EUS,43238,Upper EUS with fine-needle aspiration (limited),,3675.0,1040.48,7489.0,2395.34,,1.53,
+nyp_hv,NewYork-Presbyterian Hudson Valley Hospital,EUS,43238,Upper EUS with fine-needle aspiration (limited),4786.19,3589.64,1132.96,9686.11,2395.34,2.0,1.5,0.75
+nyp_wch,NewYork-Presbyterian Westchester,EUS,43238,Upper EUS with fine-needle aspiration (limited),,,1132.96,13583.76,2395.34,,,
+phelps,Phelps Hospital,EUS,43238,Upper EUS with fine-needle aspiration (limited),,3675.0,1040.48,9139.0,2395.34,,1.53,
+sjmc,St. Joseph's Medical Center,EUS,43238,Upper EUS with fine-needle aspiration (limited),,1960.47,1040.55,3860.24,2395.34,,0.82,
+sjr,St. John's Riverside Hospital,EUS,43238,Upper EUS with fine-needle aspiration (limited),5893.0,5009.05,1648.0,9891.94,2395.34,2.46,2.09,0.85
+wmc,Westchester Medical Center,EUS,43238,Upper EUS with fine-needle aspiration (limited),,,3670.0,8355.0,2395.34,,,
+wph,White Plains Hospital,EUS,43238,Upper EUS with fine-needle aspiration (limited),8380.0,,252.58,29019.0,2395.34,3.5,,
+mmv,Montefiore Mount Vernon Hospital,EGD,43239,Upper endoscopy (EGD) with biopsy,,,140.27,13302.0,1132.18,,,
+mnr,Montefiore New Rochelle Hospital,EGD,43239,Upper endoscopy (EGD) with biopsy,,,510.31,18107.0,1132.18,,,
+nwh,Northern Westchester Hospital,EGD,43239,Upper endoscopy (EGD) with biopsy,,3675.0,1027.3,7489.0,1132.18,,3.25,
+nyp_hv,NewYork-Presbyterian Hudson Valley Hospital,EGD,43239,Upper endoscopy (EGD) with biopsy,4245.76,3184.32,1053.94,9686.11,1132.18,3.75,2.81,0.75
+nyp_wch,NewYork-Presbyterian Westchester,EGD,43239,Upper endoscopy (EGD) with biopsy,,,1053.94,12700.68,1132.18,,,
+phelps,Phelps Hospital,EGD,43239,Upper endoscopy (EGD) with biopsy,,3675.0,1027.3,9139.0,1132.18,,3.25,
+sjmc,St. Joseph's Medical Center,EGD,43239,Upper endoscopy (EGD) with biopsy,,926.63,926.63,2341.24,1132.18,,0.82,
+sjr,St. John's Riverside Hospital,EGD,43239,Upper endoscopy (EGD) with biopsy,3116.0,2648.6,1070.3,5048.0,1132.18,2.75,2.34,0.85
+wmc,Westchester Medical Center,EGD,43239,Upper endoscopy (EGD) with biopsy,2640.0,2640.0,788.64,5006.0,1132.18,2.33,2.33,1.0
+wph,White Plains Hospital,EGD,43239,Upper endoscopy (EGD) with biopsy,7008.0,,150.72,29019.0,1132.18,6.19,,
+mmv,Montefiore Mount Vernon Hospital,EUS,43242,Upper EUS with fine-needle aspiration (transmural),,,266.23,13302.0,2395.34,,,
+mnr,Montefiore New Rochelle Hospital,EUS,43242,Upper EUS with fine-needle aspiration (transmural),,,510.31,18107.0,2395.34,,,
+nyp_wch,NewYork-Presbyterian Westchester,EUS,43242,Upper EUS with fine-needle aspiration (transmural),,,1132.96,13583.76,2395.34,,,
+sjmc,St. Joseph's Medical Center,EUS,43242,Upper EUS with fine-needle aspiration (transmural),,1960.47,1040.55,3860.24,2395.34,,0.82,
+wmc,Westchester Medical Center,EUS,43242,Upper EUS with fine-needle aspiration (transmural),,,3670.0,8355.0,2395.34,,,
+wph,White Plains Hospital,EUS,43242,Upper EUS with fine-needle aspiration (transmural),13939.0,,284.04,29019.0,2395.34,5.82,,
+mmv,Montefiore Mount Vernon Hospital,EUS,43259,Upper endoscopic ultrasound (EUS),,,229.25,13302.0,2395.34,,,
+mnr,Montefiore New Rochelle Hospital,EUS,43259,Upper endoscopic ultrasound (EUS),,,510.31,18107.0,2395.34,,,
+nwh,Northern Westchester Hospital,EUS,43259,Upper endoscopic ultrasound (EUS),,3675.0,1040.48,8370.0,2395.34,,1.53,
+nyp_wch,NewYork-Presbyterian Westchester,EUS,43259,Upper endoscopic ultrasound (EUS),,,1132.96,13583.76,2395.34,,,
+phelps,Phelps Hospital,EUS,43259,Upper endoscopic ultrasound (EUS),,3675.0,1040.48,18659.93,2395.34,,1.53,
+sjmc,St. Joseph's Medical Center,EUS,43259,Upper endoscopic ultrasound (EUS),,1960.47,1040.55,3860.24,2395.34,,0.82,
+wmc,Westchester Medical Center,EUS,43259,Upper endoscopic ultrasound (EUS),,,3670.0,9038.0,2395.34,,,
+wph,White Plains Hospital,EUS,43259,Upper endoscopic ultrasound (EUS),11934.0,,245.49,29019.0,2395.34,4.98,,
+mmv,Montefiore Mount Vernon Hospital,Colonoscopy,45378,Colonoscopy (diagnostic),12871.0,8366.15,188.42,13302.0,1160.85,11.09,7.21,0.65
+mnr,Montefiore New Rochelle Hospital,Colonoscopy,45378,Colonoscopy (diagnostic),,,643.49,18107.0,1160.85,,,
+nwh,Northern Westchester Hospital,Colonoscopy,45378,Colonoscopy (diagnostic),,3675.0,1004.06,6241.0,1160.85,,3.17,
+nyp_hv,NewYork-Presbyterian Hudson Valley Hospital,Colonoscopy,45378,Colonoscopy (diagnostic),4436.44,3327.33,1024.89,9803.15,1160.85,3.82,2.87,0.75
+nyp_wch,NewYork-Presbyterian Westchester,Colonoscopy,45378,Colonoscopy (diagnostic),,,1024.89,12700.68,1160.85,,,
+phelps,Phelps Hospital,Colonoscopy,45378,Colonoscopy (diagnostic),,3675.0,1004.06,9139.0,1160.85,,3.17,
+sjmc,St. Joseph's Medical Center,Colonoscopy,45378,Colonoscopy (diagnostic),,950.1,950.1,2259.29,1160.85,,0.82,
+sjr,St. John's Riverside Hospital,Colonoscopy,45378,Colonoscopy (diagnostic),2963.0,2518.55,813.0,4066.16,1160.85,2.55,2.17,0.85
+wmc,Westchester Medical Center,Colonoscopy,45378,Colonoscopy (diagnostic),,,2848.0,8355.0,1160.85,,,
+wph,White Plains Hospital,Colonoscopy,45378,Colonoscopy (diagnostic),9186.0,,202.11,29019.0,1160.85,7.91,,
+mmv,Montefiore Mount Vernon Hospital,Colonoscopy,45380,Colonoscopy with biopsy,,,204.12,13302.0,1493.75,,,
+mnr,Montefiore New Rochelle Hospital,Colonoscopy,45380,Colonoscopy with biopsy,,,643.49,18107.0,1493.75,,,
+nwh,Northern Westchester Hospital,Colonoscopy,45380,Colonoscopy with biopsy,,3675.0,1004.06,6241.0,1493.75,,2.46,
+nyp_hv,NewYork-Presbyterian Hudson Valley Hospital,Colonoscopy,45380,Colonoscopy with biopsy,4586.76,3440.07,1092.9,9803.15,1493.75,3.07,2.3,0.75
+nyp_wch,NewYork-Presbyterian Westchester,Colonoscopy,45380,Colonoscopy with biopsy,,,1092.9,13583.76,1493.75,,,
+phelps,Phelps Hospital,Colonoscopy,45380,Colonoscopy with biopsy,,3675.0,1004.06,9139.0,1493.75,,2.46,
+sjmc,St. Joseph's Medical Center,Colonoscopy,45380,Colonoscopy with biopsy,,1222.56,1004.13,2407.27,1493.75,,0.82,
+sjr,St. John's Riverside Hospital,Colonoscopy,45380,Colonoscopy with biopsy,3893.0,3309.05,1412.11,6168.68,1493.75,2.61,2.22,0.85
+wmc,Westchester Medical Center,Colonoscopy,45380,Colonoscopy with biopsy,,,3670.0,8355.0,1493.75,,,
+wph,White Plains Hospital,Colonoscopy,45380,Colonoscopy with biopsy,9530.0,,219.81,29019.0,1493.75,6.38,,
+mmv,Montefiore Mount Vernon Hospital,Colonoscopy,45385,Colonoscopy with snare polyp removal,,,257.86,13302.0,1493.75,,,
+mnr,Montefiore New Rochelle Hospital,Colonoscopy,45385,Colonoscopy with snare polyp removal,,,643.49,18107.0,1493.75,,,
+nwh,Northern Westchester Hospital,Colonoscopy,45385,Colonoscopy with snare polyp removal,,3675.0,1004.06,8370.0,1493.75,,2.46,
+nyp_hv,NewYork-Presbyterian Hudson Valley Hospital,Colonoscopy,45385,Colonoscopy with snare polyp removal,4768.64,3576.48,1092.9,9803.15,1493.75,3.19,2.39,0.75
+nyp_wch,NewYork-Presbyterian Westchester,Colonoscopy,45385,Colonoscopy with snare polyp removal,,,1092.9,13583.76,1493.75,,,
+phelps,Phelps Hospital,Colonoscopy,45385,Colonoscopy with snare polyp removal,,3675.0,1004.06,9139.0,1493.75,,2.46,
+sjmc,St. Joseph's Medical Center,Colonoscopy,45385,Colonoscopy with snare polyp removal,,1222.56,1004.13,2407.27,1493.75,,0.82,
+sjr,St. John's Riverside Hospital,Colonoscopy,45385,Colonoscopy with snare polyp removal,3453.0,2935.05,1412.11,6168.68,1493.75,2.31,1.96,0.85
+wmc,Westchester Medical Center,Colonoscopy,45385,Colonoscopy with snare polyp removal,,,3670.0,8355.0,1493.75,,,
+wph,White Plains Hospital,Colonoscopy,45385,Colonoscopy with snare polyp removal,12054.0,,275.9,29019.0,1493.75,8.07,,
+mmv,Montefiore Mount Vernon Hospital,Colonoscopy,G0105,Screening colonoscopy (high risk),,,188.42,18107.0,1160.85,,,
+mnr,Montefiore New Rochelle Hospital,Colonoscopy,G0105,Screening colonoscopy (high risk),,,643.49,18107.0,1160.85,,,
+nwh,Northern Westchester Hospital,Colonoscopy,G0105,Screening colonoscopy (high risk),,3675.0,1004.06,7489.0,1160.85,,3.17,
+nyp_hv,NewYork-Presbyterian Hudson Valley Hospital,Colonoscopy,G0105,Screening colonoscopy (high risk),4361.57,3271.18,1024.89,7229.31,1160.85,3.76,2.82,0.75
+nyp_wch,NewYork-Presbyterian Westchester,Colonoscopy,G0105,Screening colonoscopy (high risk),,,968.0,12700.68,1160.85,,,
+phelps,Phelps Hospital,Colonoscopy,G0105,Screening colonoscopy (high risk),,3675.0,1004.06,8673.9,1160.85,,3.17,
+sjmc,St. Joseph's Medical Center,Colonoscopy,G0105,Screening colonoscopy (high risk),,950.1,950.1,2259.29,1160.85,,0.82,
+wmc,Westchester Medical Center,Colonoscopy,G0105,Screening colonoscopy (high risk),,,624.72,16502.0,1160.85,,,
+wph,White Plains Hospital,Colonoscopy,G0105,Screening colonoscopy (high risk),9669.0,,212.53,18105.0,1160.85,8.33,,
+mmv,Montefiore Mount Vernon Hospital,Colonoscopy,G0121,Screening colonoscopy (average risk),,,188.77,18107.0,1160.85,,,
+mnr,Montefiore New Rochelle Hospital,Colonoscopy,G0121,Screening colonoscopy (average risk),,,643.49,18107.0,1160.85,,,
+nwh,Northern Westchester Hospital,Colonoscopy,G0121,Screening colonoscopy (average risk),,3675.0,1004.06,7489.0,1160.85,,3.17,
+nyp_hv,NewYork-Presbyterian Hudson Valley Hospital,Colonoscopy,G0121,Screening colonoscopy (average risk),4362.69,3272.02,1024.89,9803.15,1160.85,3.76,2.82,0.75
+nyp_wch,NewYork-Presbyterian Westchester,Colonoscopy,G0121,Screening colonoscopy (average risk),,,968.0,12700.68,1160.85,,,
+phelps,Phelps Hospital,Colonoscopy,G0121,Screening colonoscopy (average risk),,3675.0,1004.06,9073.29,1160.85,,3.17,
+sjmc,St. Joseph's Medical Center,Colonoscopy,G0121,Screening colonoscopy (average risk),,950.1,950.1,2259.29,1160.85,,0.82,
+sjr,St. John's Riverside Hospital,Colonoscopy,G0121,Screening colonoscopy (average risk),3360.0,2856.0,981.89,4793.91,1160.85,2.89,2.46,0.85
+wmc,Westchester Medical Center,Colonoscopy,G0121,Screening colonoscopy (average risk),,,625.86,16502.0,1160.85,,,
+wph,White Plains Hospital,Colonoscopy,G0121,Screening colonoscopy (average risk),9669.0,,213.16,18105.0,1160.85,8.33,,
