@@ -2,7 +2,7 @@ hospital_id,payer_name,plan_name,payer_family,segment,segment_rule
 mmv,Aetna,ASA,Aetna,Commercial,default
 mmv,Aetna,Commercial,Aetna,Commercial,default
 mmv,American Postal Workers,APWU Health Plan,Other,Commercial,default
-mmv,Amidacare,HIV Primary Care and Care Management Services,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mmv,Amidacare,HIV Primary Care and Care Management Services,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mmv,Anthem,Blue Access,Anthem / Empire BCBS,Commercial,default
 mmv,Anthem,Connection LG,Anthem / Empire BCBS,Commercial,default
 mmv,Anthem,Connection SG,Anthem / Empire BCBS,Commercial,default
@@ -11,179 +11,179 @@ mmv,Anthem,Exchange,Anthem / Empire BCBS,Exchange (individual/small group),excha
 mmv,Anthem,HMO,Anthem / Empire BCBS,Commercial,default
 mmv,Anthem,Indemnity,Anthem / Empire BCBS,Commercial,default
 mmv,Anthem,SG EPO PPO,Anthem / Empire BCBS,Commercial,default
-mmv,Anthem Healthplus,Child Health Plus,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mmv,Anthem Healthplus,Child Health Plus,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mmv,Anthem Healthplus,"Essential 1, 2, 3, 4",Anthem / Empire BCBS,Essential Plan,essential|aliessa|allessa
-mmv,Anthem Healthplus,HARP,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,Anthem Healthplus,Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,Anthem Healthplus,Medicare,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mmv,Centerlight,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mmv,Centerlight,PACE,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mmv,Anthem Healthplus,HARP,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,Anthem Healthplus,Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,Anthem Healthplus,Medicare,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mmv,Centerlight,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mmv,Centerlight,PACE,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mmv,Centivo,Centivo Network,Other,Commercial,default
 mmv,Cigna,Commercial,Cigna,Commercial,default
 mmv,Cigna,LocalPlus,Cigna,Commercial,default
-mmv,Elderplan,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mmv,Elderplan,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 mmv,Emblem,Essential Plan 1 & 2,EmblemHealth,Essential Plan,essential|aliessa|allessa
 mmv,Emblem,Essential Plan 3 & 4,EmblemHealth,Essential Plan,essential|aliessa|allessa
 mmv,Emblem,GHI,EmblemHealth,Commercial,default
 mmv,Emblem,HIP Commercial,EmblemHealth,Commercial,default
 mmv,Emblem,HIP Commerical EPO PPO,EmblemHealth,Commercial,default
-mmv,Emblem,Medicaid FHP CHP,EmblemHealth,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mmv,Emblem,Medicaid FHP CHP,EmblemHealth,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mmv,Emblem,Select Care,EmblemHealth,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-mmv,Fidelis,Child Health Plus,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mmv,Fidelis,Child Health Plus,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mmv,Fidelis,Essential Plan - Aliessa,Fidelis,Essential Plan,essential|aliessa|allessa
 mmv,Fidelis,Essential Plan - QHP,Fidelis,Essential Plan,essential|aliessa|allessa
-mmv,Fidelis,HARP,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,Fidelis,Medicaid,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,Fidelis,Medicare,Fidelis,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mmv,Hamaspik,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,Hamaspik,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mmv,HealthFirst,Child Health Plus,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mmv,Fidelis,HARP,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,Fidelis,Medicaid,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,Fidelis,Medicare,Fidelis,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mmv,Hamaspik,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,Hamaspik,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mmv,HealthFirst,Child Health Plus,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mmv,HealthFirst,Essential Plan 3 & 4,Healthfirst,Essential Plan,essential|aliessa|allessa
 mmv,HealthFirst,HFIC,Healthfirst,Commercial,default
-mmv,HealthFirst,IB Dual Connection HMO D-SNP,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mmv,HealthFirst,Medicaid,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,HealthFirst,Medicaid HARP,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,HealthFirst,Medicare PPO,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mmv,HealthFirst,QHP,Healthfirst,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-mmv,Humana,Humana,Humana,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mmv,Longevity,Medicare Advantage SNP Plan,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mmv,HealthFirst,IB Dual Connection HMO D-SNP,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mmv,HealthFirst,Medicaid,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,HealthFirst,Medicaid HARP,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,HealthFirst,Medicare PPO,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mmv,HealthFirst,QHP,Healthfirst,Exchange (individual/small group),\bqhp\b|individual
+mmv,Humana,Humana,Humana,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mmv,Longevity,Medicare Advantage SNP Plan,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 mmv,MVP,Commercial,MVP,Commercial,default
 mmv,MVP,Essential 1 & 2,MVP,Essential Plan,essential|aliessa|allessa
 mmv,MVP,Essential 3 & 4,MVP,Essential Plan,essential|aliessa|allessa
-mmv,MVP,Medicaid and CHP,MVP,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mmv,MVP,Medicaid and CHP,MVP,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mmv,Magnacare,JIB,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 mmv,Magnacare,Standard,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
-mmv,Medicaid,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,MetroPlus,Child Health Plus,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,MetroPlus,Default Duals,MetroPlus,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mmv,Medicaid,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,MetroPlus,Child Health Plus,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,MetroPlus,Default Duals,MetroPlus,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 mmv,MetroPlus,Essential Plan 1 & 2,MetroPlus,Essential Plan,essential|aliessa|allessa
 mmv,MetroPlus,Essential Plan 3 & 4,MetroPlus,Essential Plan,essential|aliessa|allessa
 mmv,MetroPlus,Exchange Products,MetroPlus,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 mmv,MetroPlus,Gold Goldcare2,MetroPlus,Commercial,default
-mmv,MetroPlus,HARP,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,MetroPlus,HIV_SNP,MetroPlus,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mmv,MetroPlus,Medicaid,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,MetroPlus,Medicaid Advantage Plus,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,MetroPlus,Medicare Advantage,MetroPlus,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mmv,MetroPlus,HARP,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,MetroPlus,HIV_SNP,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,MetroPlus,Medicaid,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,MetroPlus,Medicaid Advantage Plus,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,MetroPlus,Medicare Advantage,MetroPlus,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 mmv,Molina Healthcare of NY Affinity,Essential Plan 1 & 2,Molina / Affinity,Essential Plan,essential|aliessa|allessa
 mmv,Molina Healthcare of NY Affinity,Essential Plan 200-250,Molina / Affinity,Essential Plan,essential|aliessa|allessa
 mmv,Molina Healthcare of NY Affinity,Essential Plan 3 & 4,Molina / Affinity,Essential Plan,essential|aliessa|allessa
-mmv,Molina Healthcare of NY Affinity,HARP,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,Molina Healthcare of NY Affinity,Medicaid,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,Molina Healthcare of NY Affinity,Molina HC Aff CHP,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mmv,Molina Healthcare of NY Affinity,HARP,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,Molina Healthcare of NY Affinity,Medicaid,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,Molina Healthcare of NY Affinity,Molina HC Aff CHP,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mmv,Multiplan,Multiplan,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 mmv,Northwell,Northwell,Northwell Direct,Commercial,default
 mmv,Oscar,Commercial,Oscar,Commercial,default
-mmv,Partners Health Plan,FIDA IDD,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mmv,Partners Health Plan,FIDA IDD,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mmv,Point Comfort,Indemnity,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 mmv,UHC,All Payer,UnitedHealthcare,Commercial,default
 mmv,UHC,Compass,UnitedHealthcare,Commercial,default
-mmv,UHC,HARP,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,UHC,Medicare,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mmv,UHC,NY CHIP,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mmv,UHC,HARP,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,UHC,Medicare,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mmv,UHC,NY CHIP,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mmv,UHC,NY Essential,UnitedHealthcare,Essential Plan,essential|aliessa|allessa
 mmv,UHC,Oxford,UnitedHealthcare,Commercial,default
-mmv,VNSNY Choice,Medicaid,VNS Health,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,VNSNY Choice,Medicare,VNS Health,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mmv,VNSNY Select Health,VNSNY Select Health,VNS Health,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,VillageCareMAX,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mmv,Wellcare,CHP,Wellcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,Wellcare,Medicaid,Wellcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mmv,Wellcare,Medicare,Wellcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mmv,VNSNY Choice,Medicaid,VNS Health,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,VNSNY Choice,Medicare,VNS Health,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mmv,VNSNY Select Health,VNSNY Select Health,VNS Health,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,VillageCareMAX,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mmv,Wellcare,CHP,Wellcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,Wellcare,Medicaid,Wellcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mmv,Wellcare,Medicare,Wellcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 mnr,Aetna,ASA,Aetna,Commercial,default
 mnr,Aetna,Commercial,Aetna,Commercial,default
 mnr,American Postal Workers,APWU Health Plan,Other,Commercial,default
-mnr,Amidacare,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,Amidacare,Medicare Advantage,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mnr,Amidacare,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,Amidacare,Medicare Advantage,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 mnr,Anthem,Blue Access,Anthem / Empire BCBS,Commercial,default
-mnr,Anthem,Child Health Plus,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mnr,Anthem,Child Health Plus,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mnr,Anthem,Connection LG,Anthem / Empire BCBS,Commercial,default
 mnr,Anthem,Connection SG,Anthem / Empire BCBS,Commercial,default
 mnr,Anthem,EPO PPO,Anthem / Empire BCBS,Commercial,default
 mnr,Anthem,"Essential 1, 2, 3, 4",Anthem / Empire BCBS,Essential Plan,essential|aliessa|allessa
 mnr,Anthem,Exchange,Anthem / Empire BCBS,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-mnr,Anthem,HARP,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mnr,Anthem,HARP,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mnr,Anthem,HMO,Anthem / Empire BCBS,Commercial,default
 mnr,Anthem,Indemnity,Anthem / Empire BCBS,Commercial,default
-mnr,Anthem,Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,Anthem,Medicare,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mnr,Anthem,Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,Anthem,Medicare,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 mnr,Anthem,SG EPO/PPO,Anthem / Empire BCBS,Commercial,default
-mnr,Centerlight,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mnr,Centerlight,PACE,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mnr,Centerlight,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mnr,Centerlight,PACE,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mnr,Cigna,Commercial,Cigna,Commercial,default
 mnr,Emblem,Essential Plan 1 & 2,EmblemHealth,Essential Plan,essential|aliessa|allessa
 mnr,Emblem,Essential Plan 3 & 4,EmblemHealth,Essential Plan,essential|aliessa|allessa
 mnr,Emblem,GHI,EmblemHealth,Commercial,default
 mnr,Emblem,GHI Access Network,EmblemHealth,Commercial,default
 mnr,Emblem,HIP Commerical EPO PPO,EmblemHealth,Commercial,default
-mnr,Emblem,Medicaid FHP CHP,EmblemHealth,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,Emblem,Medicare,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mnr,Emblem,Medicaid FHP CHP,EmblemHealth,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,Emblem,Medicare,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 mnr,Emblem,Select Care,EmblemHealth,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-mnr,Fidelis,Child Health Plus,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mnr,Fidelis,Child Health Plus,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mnr,Fidelis,Essential Plan - Aliessa,Fidelis,Essential Plan,essential|aliessa|allessa
 mnr,Fidelis,Essential Plan - QHP,Fidelis,Essential Plan,essential|aliessa|allessa
-mnr,Fidelis,HARP,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,Fidelis,Medicaid,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,Fidelis,Medicare,Fidelis,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mnr,Hamaspik,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,Hamaspik,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mnr,HealthFirst,Child Health Plus,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mnr,Fidelis,HARP,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,Fidelis,Medicaid,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,Fidelis,Medicare,Fidelis,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mnr,Hamaspik,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,Hamaspik,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mnr,HealthFirst,Child Health Plus,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mnr,HealthFirst,Essential Plan 1 & 2,Healthfirst,Essential Plan,essential|aliessa|allessa
 mnr,HealthFirst,Essential Plan 3 & 4,Healthfirst,Essential Plan,essential|aliessa|allessa
-mnr,HealthFirst,IB Dual Connection HMO D-SNP,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mnr,HealthFirst,Medicaid,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,HealthFirst,Medicaid Advantage Plus,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,HealthFirst,Medicaid HARP,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,HealthFirst,Medicare HMO,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mnr,HealthFirst,Medicare PPO,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mnr,HealthFirst,QHP,Healthfirst,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-mnr,Humana,Humana,Humana,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mnr,HealthFirst,IB Dual Connection HMO D-SNP,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mnr,HealthFirst,Medicaid,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,HealthFirst,Medicaid Advantage Plus,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,HealthFirst,Medicaid HARP,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,HealthFirst,Medicare HMO,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mnr,HealthFirst,Medicare PPO,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mnr,HealthFirst,QHP,Healthfirst,Exchange (individual/small group),\bqhp\b|individual
+mnr,Humana,Humana,Humana,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 mnr,MVP,Essential 1 & 2,MVP,Essential Plan,essential|aliessa|allessa
-mnr,MVP,Medicaid and CHP,MVP,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mnr,MVP,Medicaid and CHP,MVP,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mnr,Magnacare,JIB,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 mnr,Magnacare,Standard,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
-mnr,Medicaid,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,MetroPlus,Child Health Plus,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,MetroPlus,Default Duals,MetroPlus,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mnr,Medicaid,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,MetroPlus,Child Health Plus,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,MetroPlus,Default Duals,MetroPlus,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 mnr,MetroPlus,Essential Plan 1 & 2,MetroPlus,Essential Plan,essential|aliessa|allessa
 mnr,MetroPlus,Essential Plan 3 & 4,MetroPlus,Essential Plan,essential|aliessa|allessa
 mnr,MetroPlus,Exchange Products,MetroPlus,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 mnr,MetroPlus,Gold Goldcare2,MetroPlus,Commercial,default
-mnr,MetroPlus,HARP,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,MetroPlus,HIV SNP,MetroPlus,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mnr,MetroPlus,Medicaid,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,MetroPlus,Medicaid Advantage Plus,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,MetroPlus,Medicare Advantage,MetroPlus,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mnr,MetroPlus,HARP,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,MetroPlus,HIV SNP,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,MetroPlus,Medicaid,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,MetroPlus,Medicaid Advantage Plus,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,MetroPlus,Medicare Advantage,MetroPlus,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 mnr,Molina Healthcare of NY Affinity,Essential Plan 1 & 2,Molina / Affinity,Essential Plan,essential|aliessa|allessa
 mnr,Molina Healthcare of NY Affinity,Essential Plan 200-250,Molina / Affinity,Essential Plan,essential|aliessa|allessa
 mnr,Molina Healthcare of NY Affinity,Essential Plan 3 & 4,Molina / Affinity,Essential Plan,essential|aliessa|allessa
-mnr,Molina Healthcare of NY Affinity,HARP,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,Molina Healthcare of NY Affinity,Medicaid,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,Molina Healthcare of NY Affinity,Molina HC Aff CHP,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mnr,Molina Healthcare of NY Affinity,HARP,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,Molina Healthcare of NY Affinity,Medicaid,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,Molina Healthcare of NY Affinity,Molina HC Aff CHP,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mnr,Northwell,Northwell,Northwell Direct,Commercial,default
 mnr,Oscar,Commercial,Oscar,Commercial,default
-mnr,Partners Health Plan,FIDA IDD,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mnr,Partners Health Plan,FIDA IDD,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mnr,UHC,All Payer,UnitedHealthcare,Commercial,default
 mnr,UHC,Compass,UnitedHealthcare,Commercial,default
-mnr,UHC,HARP,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,UHC,Medicare,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mnr,UHC,NY CHIP,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+mnr,UHC,HARP,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,UHC,Medicare,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mnr,UHC,NY CHIP,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 mnr,UHC,NY Essential,UnitedHealthcare,Essential Plan,essential|aliessa|allessa
 mnr,UHC,Oxford,UnitedHealthcare,Commercial,default
-mnr,VNSNY Choice,Medicaid,VNS Health,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,VNSNY Choice,Medicare,VNS Health,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mnr,VNSNY Select Health,VNSNY Select Health,VNS Health,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,VillageCareMAX,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-mnr,Wellcare,CHP,Wellcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,Wellcare,Medicaid,Wellcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-mnr,Wellcare,Medicare,Wellcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mnr,VNSNY Choice,Medicaid,VNS Health,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,VNSNY Choice,Medicare,VNS Health,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mnr,VNSNY Select Health,VNSNY Select Health,VNS Health,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,VillageCareMAX,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+mnr,Wellcare,CHP,Wellcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,Wellcare,Medicaid,Wellcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+mnr,Wellcare,Medicare,Wellcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nwh,Aetna,Aetna HMO,Aetna,Commercial,default
-nwh,Aetna,Aetna Medicare,Aetna,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nwh,Aetna,Aetna Medicare,Aetna,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nwh,Aetna,Aetna Meritain PPO,Aetna,Commercial,default
 nwh,Aetna,Aetna PPO,Aetna,Commercial,default
-nwh,Affinity,Affinity Health Plan - CHP,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+nwh,Affinity,Affinity Health Plan - CHP,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 nwh,Affinity,Affinity Health Plan - Essential 1&amp;2,Molina / Affinity,Essential Plan,essential|aliessa|allessa
-nwh,Affinity,Affinity Health Plan - MCD,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+nwh,Affinity,Affinity Health Plan - MCD,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 nwh,Cigna,Cigna HMO,Cigna,Commercial,default
 nwh,Cigna,Cigna PPO,Cigna,Commercial,default
 nwh,Emblem,Connecticare HMO,EmblemHealth,Commercial,default
@@ -193,166 +193,166 @@ nwh,Emblem,Emblem - Essential 3&amp;4,EmblemHealth,Essential Plan,essential|alie
 nwh,Emblem,Emblem - Exchange,EmblemHealth,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 nwh,Emblem,GHI HMO,EmblemHealth,Commercial,default
 nwh,Emblem,GHI Insured PPO,EmblemHealth,Commercial,default
-nwh,Emblem,GHI Medicare,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nwh,Emblem,GHI Medicare,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nwh,Emblem,GHI Net Access PPO,EmblemHealth,Commercial,default
 nwh,Emblem,HIP HMO,EmblemHealth,Commercial,default
-nwh,Emblem,HIP Medicaid,EmblemHealth,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nwh,Emblem,HIP Medicare PPO,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nwh,Emblem,HIP Medicaid,EmblemHealth,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nwh,Emblem,HIP Medicare PPO,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nwh,Emblem,HIP PPO,EmblemHealth,Commercial,default
-nwh,Emblem,HIP VIP Medicare,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nwh,Emblem,HIP VIP Medicare,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nwh,Empire,Empire - Exchange Small Group (Narrow Network),Anthem / Empire BCBS,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-nwh,Empire,Empire Advantage Medicare PPO,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nwh,Empire,Empire Advantage Medicare PPO,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nwh,Empire,Empire Blue Access Large Group,Anthem / Empire BCBS,Commercial,default
 nwh,Empire,Empire Blue Access Small Group,Anthem / Empire BCBS,Commercial,default
 nwh,Empire,Empire Connection,Anthem / Empire BCBS,Commercial,default
 nwh,Empire,Empire HMO,Anthem / Empire BCBS,Commercial,default
 nwh,Empire,Empire Indemnity,Anthem / Empire BCBS,Commercial,default
-nwh,Empire,Empire Medicare HMO,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nwh,Empire,Empire Medicare HMO,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nwh,Empire,Empire PPO,Anthem / Empire BCBS,Commercial,default
 nwh,Fidelis,Fidelis - Essential 1&amp;2,Fidelis,Essential Plan,essential|aliessa|allessa
 nwh,Fidelis,Fidelis - Essential 3&amp;4,Fidelis,Essential Plan,essential|aliessa|allessa
 nwh,Fidelis,Fidelis - Exchange,Fidelis,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-nwh,Fidelis,Fidelis Care NY - Medicare Adv,Fidelis,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-nwh,Fidelis,Fidelis MCD - CHP,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nwh,Fidelis,Fidelis Medicaid - FHP,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nwh,HealthFirst,HealthFirst (MHI) Medicare Intra-Network,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-nwh,HealthFirst,HealthFirst (PHSP) Medicaid Intra-Network,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nwh,HealthFirst,HealthFirst (PHSP) Medicaid Intra-Network - CHP,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+nwh,Fidelis,Fidelis Care NY - Medicare Adv,Fidelis,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nwh,Fidelis,Fidelis MCD - CHP,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nwh,Fidelis,Fidelis Medicaid - FHP,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nwh,HealthFirst,HealthFirst (MHI) Medicare Intra-Network,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nwh,HealthFirst,HealthFirst (PHSP) Medicaid Intra-Network,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nwh,HealthFirst,HealthFirst (PHSP) Medicaid Intra-Network - CHP,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 nwh,HealthFirst,Healthfirst - Essential Intra-Network 1&amp;2,Healthfirst,Essential Plan,essential|aliessa|allessa
 nwh,HealthFirst,Healthfirst - Essential Intra-Network 3&amp;4,Healthfirst,Essential Plan,essential|aliessa|allessa
 nwh,HealthFirst,Healthfirst - Exchange Intra-Network,Healthfirst,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 nwh,HealthFirst,Healthfirst - Exchange Small Group Intra-Network,Healthfirst,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 nwh,HealthPlus,Blue Cross HealthPlus - Essential 1&amp;2,Anthem / Empire BCBS,Essential Plan,essential|aliessa|allessa
-nwh,HealthPlus,HealthPlus (CHP) Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nwh,HealthPlus,HealthPlus (FHP) Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nwh,HealthPlus,Healthplus Medicare Advantage,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-nwh,Humana,Humana Medicare,Humana,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nwh,HealthPlus,HealthPlus (CHP) Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nwh,HealthPlus,HealthPlus (FHP) Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nwh,HealthPlus,Healthplus Medicare Advantage,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nwh,Humana,Humana Medicare,Humana,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nwh,Local 1199,Local 1199 / 1115 PPO,1199SEIU,Commercial,default
 nwh,MVP,Mohawk Valley Plan (MVP) - HMO/PPO,MVP,Commercial,default
 nwh,Magna,Magna Guardian PPO,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 nwh,Magna,Magna PPO Preferred,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
-nwh,Metroplus,MetroPlus CHP,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nwh,Metroplus,MetroPlus Medicaid &amp; FHP,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+nwh,Metroplus,MetroPlus CHP,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nwh,Metroplus,MetroPlus Medicaid &amp; FHP,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 nwh,Metroplus,Metroplus - Essential 1&amp;2,MetroPlus,Essential Plan,essential|aliessa|allessa
 nwh,Metroplus,Metroplus - Exchange,MetroPlus,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-nwh,Metroplus,Metroplus MCR,MetroPlus,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nwh,Metroplus,Metroplus MCR,MetroPlus,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nwh,Northwell Direct,Northwell Direct,Northwell Direct,Commercial,default
 nwh,Oxford,Oxford Freedom HMO,UnitedHealthcare,Commercial,default
 nwh,Oxford,Oxford Liberty HMO,UnitedHealthcare,Commercial,default
-nwh,Oxford,Oxford Medicare,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nwh,Oxford,Oxford Medicare,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nwh,Oxford,Oxford PPO,UnitedHealthcare,Commercial,default
 nwh,United,United - Essential 1&amp;2,UnitedHealthcare,Essential Plan,essential|aliessa|allessa
 nwh,United,United - Essential 3&amp;4,UnitedHealthcare,Essential Plan,essential|aliessa|allessa
 nwh,United,United - Exchange,UnitedHealthcare,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 nwh,United,United HMO,UnitedHealthcare,Commercial,default
-nwh,United,United Medicaid,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nwh,United,United Medicare,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nwh,United,United Medicaid,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nwh,United,United Medicare,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nwh,United,United PPO,UnitedHealthcare,Commercial,default
-nwh,WellCare,WellCare MCR,Wellcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nwh,WellCare,WellCare MCR,Wellcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_hv,Aetna,Commercial,Aetna,Commercial,default
-nyp_hv,Aetna,Medicare Advantage,Aetna,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_hv,Aetna,Medicare Advantage,Aetna,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_hv,Affinity by Molina Healthcare,All NYS Essential Plans,Molina / Affinity,Essential Plan,essential|aliessa|allessa
-nyp_hv,Affinity by Molina Healthcare,Medicaid/Child Health Plus,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_hv,Amida Care,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+nyp_hv,Affinity by Molina Healthcare,Medicaid/Child Health Plus,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_hv,Amida Care,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 nyp_hv,Anthem BCBS,All Commercial Plans,Anthem / Empire BCBS,Commercial,default
-nyp_hv,Anthem BCBS,Medicare Advantage,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_hv,Anthem BCBS,Medicare Advantage,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_hv,Anthem BCBS Healthplus,All NYS Essential Plans,Anthem / Empire BCBS,Essential Plan,essential|aliessa|allessa
-nyp_hv,Anthem BCBS Healthplus,Child Health Plus,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_hv,Anthem BCBS Healthplus,Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_hv,Anthem BCBS Healthplus,Medicare Advantage,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_hv,Anthem BCBS Healthplus,Child Health Plus,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_hv,Anthem BCBS Healthplus,Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_hv,Anthem BCBS Healthplus,Medicare Advantage,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_hv,Anthem BCBS Healthplus,nystateofhealth plans,Anthem / Empire BCBS,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 nyp_hv,Cigna Healthcare,All Commercial Plans,Cigna,Commercial,default
-nyp_hv,Cigna Healthcare,Medicare Advantage,Cigna,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_hv,Cigna Healthcare,Medicare Advantage,Cigna,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_hv,Claritev dba MultiPlan,All Commercial Plans,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 nyp_hv,Consumer Health Network,All Commercial Plans,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
-nyp_hv,Elderplan,Medicare Advantage,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_hv,Elderplan,Medicare Advantage,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_hv,EmblemHealth,All Commercial Plans,EmblemHealth,Commercial,default
-nyp_hv,EmblemHealth,Medicaid/Child Health Plus,EmblemHealth,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_hv,EmblemHealth,Medicare Advantage,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_hv,EmblemHealth,Medicaid/Child Health Plus,EmblemHealth,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_hv,EmblemHealth,Medicare Advantage,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_hv,EmblemHealth,nystateofhealth plans,EmblemHealth,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 nyp_hv,Fidelis Care,All NYS Essential Plans,Fidelis,Essential Plan,essential|aliessa|allessa
-nyp_hv,Fidelis Care,Medicaid/Child Health Plus,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_hv,Fidelis Care,Medicare Advantage,Fidelis,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_hv,Fidelis Care,Medicaid/Child Health Plus,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_hv,Fidelis Care,Medicare Advantage,Fidelis,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_hv,Fidelis Care,nystateofhealth plans,Fidelis,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 nyp_hv,First Health,All Commercial Plans,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 nyp_hv,HealthFirst,All Essential Plans,Healthfirst,Essential Plan,essential|aliessa|allessa
-nyp_hv,HealthFirst,Medicaid/Child Health Plus,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_hv,HealthFirst,Medicare Advantage,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_hv,HealthFirst,Medicaid/Child Health Plus,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_hv,HealthFirst,Medicare Advantage,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_hv,HealthFirst,nystateofhealth plans,Healthfirst,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-nyp_hv,Longevity,Medicare Advantage,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_hv,Longevity,Medicare Advantage,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_hv,MVP Health,All NYS Essential Plans,MVP,Essential Plan,essential|aliessa|allessa
-nyp_hv,MVP Health,Medicaid/Child Health Plus,MVP,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_hv,MVP Health,Medicare Advantage,MVP,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_hv,MVP Health,Medicaid/Child Health Plus,MVP,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_hv,MVP Health,Medicare Advantage,MVP,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_hv,MVP Health,nystateofhealth plans,MVP,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 nyp_hv,MVP Health Plan,All Commercial Plans,MVP,Commercial,default
 nyp_hv,MagnaCare,All Commercial Plans,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 nyp_hv,Oxford Health Plans,All Commercial Plans,UnitedHealthcare,Commercial,default
-nyp_hv,Oxford Health Plans,Medicare Advantage,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-nyp_hv,Senior Whole Health,Medicare Advantage,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_hv,Oxford Health Plans,Medicare Advantage,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_hv,Senior Whole Health,Medicare Advantage,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_hv,United Healthcare,All HMO Plans,UnitedHealthcare,Commercial,default
 nyp_hv,United Healthcare,All NYS Essential Plans,UnitedHealthcare,Essential Plan,essential|aliessa|allessa
-nyp_hv,United Healthcare,Child Health Plus,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_hv,United Healthcare,Medicaid,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_hv,United Healthcare,Medicare Advantage,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-nyp_hv,VNS Health,Medicaid,VNS Health,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_hv,VNS Health,Medicare Advantage,VNS Health,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-nyp_hv,WellCare,Medicare Advantage,Wellcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_hv,United Healthcare,Child Health Plus,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_hv,United Healthcare,Medicaid,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_hv,United Healthcare,Medicare Advantage,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_hv,VNS Health,Medicaid,VNS Health,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_hv,VNS Health,Medicare Advantage,VNS Health,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_hv,WellCare,Medicare Advantage,Wellcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_wch,1199SEIU Funds,All Commercial Plans,1199SEIU,Commercial,default
 nyp_wch,Aetna,Commercial,Aetna,Commercial,default
-nyp_wch,Aetna,Medicare Advantage,Aetna,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_wch,Aetna,Medicare Advantage,Aetna,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_wch,Affinity by Molina Healthcare,All NYS Essential Plans,Molina / Affinity,Essential Plan,essential|aliessa|allessa
-nyp_wch,Affinity by Molina Healthcare,Medicaid/Child Health Plus,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_wch,Amida Care,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+nyp_wch,Affinity by Molina Healthcare,Medicaid/Child Health Plus,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_wch,Amida Care,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 nyp_wch,Anthem BCBS,All Commercial Plans,Anthem / Empire BCBS,Commercial,default
-nyp_wch,Anthem BCBS,Medicare Advantage,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_wch,Anthem BCBS,Medicare Advantage,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_wch,Anthem BCBS Healthplus,All NYS Essential Plans,Anthem / Empire BCBS,Essential Plan,essential|aliessa|allessa
-nyp_wch,Anthem BCBS Healthplus,Child Health Plus,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_wch,Anthem BCBS Healthplus,Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_wch,Anthem BCBS Healthplus,Medicare Advantage,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_wch,Anthem BCBS Healthplus,Child Health Plus,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_wch,Anthem BCBS Healthplus,Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_wch,Anthem BCBS Healthplus,Medicare Advantage,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_wch,Anthem BCBS Healthplus,nystateofhealth plans,Anthem / Empire BCBS,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 nyp_wch,Beech Street,All Commercial Plans,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 nyp_wch,Cigna Healthcare,All Commercial Plans,Cigna,Commercial,default
-nyp_wch,Cigna Healthcare,Medicare Advantage,Cigna,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_wch,Cigna Healthcare,Medicare Advantage,Cigna,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_wch,Claritev dba MultiPlan,All Commercial Plans,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 nyp_wch,Consumer Health Network,All Commercial Plans,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 nyp_wch,Devon,All Commercial Plans,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 nyp_wch,EmblemHealth,All Commercial Plans,EmblemHealth,Commercial,default
 nyp_wch,EmblemHealth,All NYS Essential Plans,EmblemHealth,Essential Plan,essential|aliessa|allessa
-nyp_wch,EmblemHealth,Medicaid/Child Health Plus,EmblemHealth,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_wch,EmblemHealth,Medicare Advantage,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_wch,EmblemHealth,Medicaid/Child Health Plus,EmblemHealth,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_wch,EmblemHealth,Medicare Advantage,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_wch,Fidelis Care,All NYS Essential Plans,Fidelis,Essential Plan,essential|aliessa|allessa
-nyp_wch,Fidelis Care,Medicaid/Child Health Plus,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_wch,Fidelis Care,Medicare Advantage,Fidelis,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_wch,Fidelis Care,Medicaid/Child Health Plus,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_wch,Fidelis Care,Medicare Advantage,Fidelis,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_wch,Fidelis Care,nystateofhealth plans,Fidelis,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 nyp_wch,First Health,All Commercial Plans,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 nyp_wch,First Health Coventry,All Commercial Plans,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 nyp_wch,HealthFirst,All Essential Plans,Healthfirst,Essential Plan,essential|aliessa|allessa
-nyp_wch,HealthFirst,Medicaid/Child Health Plus,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_wch,HealthFirst,Medicare Advantage,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_wch,HealthFirst,Medicaid/Child Health Plus,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_wch,HealthFirst,Medicare Advantage,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_wch,HealthFirst,nystateofhealth plans,Healthfirst,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 nyp_wch,MVP Health,All NYS Essential Plans,MVP,Essential Plan,essential|aliessa|allessa
-nyp_wch,MVP Health,Medicaid/Child Health Plus,MVP,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+nyp_wch,MVP Health,Medicaid/Child Health Plus,MVP,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 nyp_wch,MagnaCare,All Commercial Plans,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 nyp_wch,Oxford Health Plans,All Commercial Plans,UnitedHealthcare,Commercial,default
-nyp_wch,Oxford Health Plans,Medicare Advantage,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_wch,Oxford Health Plans,Medicare Advantage,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_wch,QHM,All Commercial Plans,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
-nyp_wch,Senior Whole Health,Medicare Advantage,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_wch,Senior Whole Health,Medicare Advantage,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_wch,United Healthcare,All Commercial Plans,UnitedHealthcare,Commercial,default
 nyp_wch,United Healthcare,All NYS Essential Plans,UnitedHealthcare,Essential Plan,essential|aliessa|allessa
-nyp_wch,United Healthcare,Child Health Plus,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_wch,United Healthcare,Medicaid,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_wch,United Healthcare,Medicare Advantage,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-nyp_wch,VNS Health,Medicaid,VNS Health,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-nyp_wch,VNS Health,Medicare Advantage,VNS Health,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-nyp_wch,WellCare,Medicare Advantage,Wellcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_wch,United Healthcare,Child Health Plus,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_wch,United Healthcare,Medicaid,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_wch,United Healthcare,Medicare Advantage,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_wch,VNS Health,Medicaid,VNS Health,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+nyp_wch,VNS Health,Medicare Advantage,VNS Health,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+nyp_wch,WellCare,Medicare Advantage,Wellcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 nyp_wch,Worldwide,All Commercial Plans,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 phelps,Aetna,Aetna HMO,Aetna,Commercial,default
-phelps,Aetna,Aetna Medicare,Aetna,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+phelps,Aetna,Aetna Medicare,Aetna,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 phelps,Aetna,Aetna Meritain PPO,Aetna,Commercial,default
 phelps,Aetna,Aetna PPO,Aetna,Commercial,default
-phelps,Affinity,Affinity Health Plan - CHP,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+phelps,Affinity,Affinity Health Plan - CHP,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 phelps,Affinity,Affinity Health Plan - Essential 1&amp;2,Molina / Affinity,Essential Plan,essential|aliessa|allessa
-phelps,Affinity,Affinity Health Plan - MCD,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+phelps,Affinity,Affinity Health Plan - MCD,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 phelps,Cigna,Cigna HMO,Cigna,Commercial,default
 phelps,Cigna,Cigna PPO,Cigna,Commercial,default
 phelps,Emblem,Connecticare HMO,EmblemHealth,Commercial,default
@@ -362,138 +362,138 @@ phelps,Emblem,Emblem - Essential 3&amp;4,EmblemHealth,Essential Plan,essential|a
 phelps,Emblem,Emblem - Exchange,EmblemHealth,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 phelps,Emblem,GHI HMO,EmblemHealth,Commercial,default
 phelps,Emblem,GHI Insured PPO,EmblemHealth,Commercial,default
-phelps,Emblem,GHI Medicare,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+phelps,Emblem,GHI Medicare,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 phelps,Emblem,GHI Net Access PPO,EmblemHealth,Commercial,default
 phelps,Emblem,HIP HMO,EmblemHealth,Commercial,default
-phelps,Emblem,HIP Medicaid,EmblemHealth,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-phelps,Emblem,HIP Medicare PPO,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+phelps,Emblem,HIP Medicaid,EmblemHealth,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+phelps,Emblem,HIP Medicare PPO,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 phelps,Emblem,HIP PPO,EmblemHealth,Commercial,default
-phelps,Emblem,HIP VIP Medicare,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+phelps,Emblem,HIP VIP Medicare,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 phelps,Empire,Empire - Exchange Small Group (Narrow Network),Anthem / Empire BCBS,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-phelps,Empire,Empire Advantage Medicare PPO,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+phelps,Empire,Empire Advantage Medicare PPO,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 phelps,Empire,Empire Blue Access Large Group,Anthem / Empire BCBS,Commercial,default
 phelps,Empire,Empire Blue Access Small Group,Anthem / Empire BCBS,Commercial,default
 phelps,Empire,Empire Connection,Anthem / Empire BCBS,Commercial,default
 phelps,Empire,Empire HMO,Anthem / Empire BCBS,Commercial,default
 phelps,Empire,Empire Indemnity,Anthem / Empire BCBS,Commercial,default
-phelps,Empire,Empire Medicare HMO,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+phelps,Empire,Empire Medicare HMO,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 phelps,Empire,Empire PPO,Anthem / Empire BCBS,Commercial,default
 phelps,Fidelis,Fidelis - Essential 1&amp;2,Fidelis,Essential Plan,essential|aliessa|allessa
 phelps,Fidelis,Fidelis - Essential 3&amp;4,Fidelis,Essential Plan,essential|aliessa|allessa
 phelps,Fidelis,Fidelis - Exchange,Fidelis,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-phelps,Fidelis,Fidelis Care NY - Medicare Adv,Fidelis,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-phelps,Fidelis,Fidelis MCD - CHP,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-phelps,Fidelis,Fidelis Medicaid - FHP,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-phelps,HealthFirst,HealthFirst (MHI) Medicare Intra-Network,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-phelps,HealthFirst,HealthFirst (PHSP) Medicaid Intra-Network,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-phelps,HealthFirst,HealthFirst (PHSP) Medicaid Intra-Network - CHP,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+phelps,Fidelis,Fidelis Care NY - Medicare Adv,Fidelis,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+phelps,Fidelis,Fidelis MCD - CHP,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+phelps,Fidelis,Fidelis Medicaid - FHP,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+phelps,HealthFirst,HealthFirst (MHI) Medicare Intra-Network,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+phelps,HealthFirst,HealthFirst (PHSP) Medicaid Intra-Network,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+phelps,HealthFirst,HealthFirst (PHSP) Medicaid Intra-Network - CHP,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 phelps,HealthFirst,Healthfirst - Essential Intra-Network 1&amp;2,Healthfirst,Essential Plan,essential|aliessa|allessa
 phelps,HealthFirst,Healthfirst - Essential Intra-Network 3&amp;4,Healthfirst,Essential Plan,essential|aliessa|allessa
 phelps,HealthFirst,Healthfirst - Exchange Intra-Network,Healthfirst,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 phelps,HealthFirst,Healthfirst - Exchange Small Group Intra-Network,Healthfirst,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 phelps,HealthPlus,Blue Cross HealthPlus - Essential 1&amp;2,Anthem / Empire BCBS,Essential Plan,essential|aliessa|allessa
-phelps,HealthPlus,HealthPlus (CHP) Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-phelps,HealthPlus,HealthPlus (FHP) Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-phelps,HealthPlus,Healthplus Medicare Advantage,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-phelps,Humana,Humana Medicare,Humana,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+phelps,HealthPlus,HealthPlus (CHP) Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+phelps,HealthPlus,HealthPlus (FHP) Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+phelps,HealthPlus,Healthplus Medicare Advantage,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+phelps,Humana,Humana Medicare,Humana,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 phelps,Local 1199,Local 1199 / 1115 PPO,1199SEIU,Commercial,default
 phelps,MVP,Mohawk Valley Plan (MVP) - HMO/PPO,MVP,Commercial,default
 phelps,Magna,Magna Guardian PPO,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 phelps,Magna,Magna PPO Preferred,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
-phelps,Metroplus,MetroPlus CHP,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-phelps,Metroplus,MetroPlus Medicaid &amp; FHP,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+phelps,Metroplus,MetroPlus CHP,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+phelps,Metroplus,MetroPlus Medicaid &amp; FHP,MetroPlus,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 phelps,Metroplus,Metroplus - Essential 1&amp;2,MetroPlus,Essential Plan,essential|aliessa|allessa
 phelps,Metroplus,Metroplus - Exchange,MetroPlus,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-phelps,Metroplus,Metroplus MCR,MetroPlus,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+phelps,Metroplus,Metroplus MCR,MetroPlus,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 phelps,Northwell Direct,Northwell Direct,Northwell Direct,Commercial,default
 phelps,Oxford,Oxford Freedom HMO,UnitedHealthcare,Commercial,default
 phelps,Oxford,Oxford Liberty HMO,UnitedHealthcare,Commercial,default
-phelps,Oxford,Oxford Medicare,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+phelps,Oxford,Oxford Medicare,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 phelps,Oxford,Oxford PPO,UnitedHealthcare,Commercial,default
 phelps,United,United - Essential 1&amp;2,UnitedHealthcare,Essential Plan,essential|aliessa|allessa
 phelps,United,United - Essential 3&amp;4,UnitedHealthcare,Essential Plan,essential|aliessa|allessa
 phelps,United,United - Exchange,UnitedHealthcare,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 phelps,United,United HMO,UnitedHealthcare,Commercial,default
-phelps,United,United Medicaid,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-phelps,United,United Medicare,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+phelps,United,United Medicaid,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+phelps,United,United Medicare,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 phelps,United,United PPO,UnitedHealthcare,Commercial,default
-phelps,WellCare,WellCare MCR,Wellcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+phelps,WellCare,WellCare MCR,Wellcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 sjmc,Aetna Gatekeeper,Commercial,Aetna,Commercial,default
 sjmc,Aetna Non-Gatekeeper,Commercial,Aetna,Commercial,default
 sjmc,Aetna Savings Plus,Exchange,Aetna,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-sjmc,Elderplan,Medicare Advantage,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-sjmc,Empire HealthPlus,Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-sjmc,Empire HealthPlus CHP,Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+sjmc,Elderplan,Medicare Advantage,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+sjmc,Empire HealthPlus,Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+sjmc,Empire HealthPlus CHP,Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 sjmc,Empire HealthPlus Essential Plan,Medicaid Managed Care,Anthem / Empire BCBS,Essential Plan,essential|aliessa|allessa
-sjmc,Empire HealthPlus Individual,Medicaid Managed Care,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-sjmc,Fidelis,Medicaid,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-sjmc,Fidelis CHP,Medicaid,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+sjmc,Empire HealthPlus Individual,Medicaid Managed Care,Anthem / Empire BCBS,Exchange (individual/small group),\bqhp\b|individual
+sjmc,Fidelis,Medicaid,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+sjmc,Fidelis CHP,Medicaid,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 sjmc,Fidelis Essential Plans,Medicaid Managed Care,Fidelis,Essential Plan,essential|aliessa|allessa
-sjmc,Hamaspik,Medicare Advantage,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-sjmc,Healthfirst,Medicaid,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-sjmc,Healthfirst,Medicare Advantage,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+sjmc,Hamaspik,Medicare Advantage,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+sjmc,Healthfirst,Medicaid,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+sjmc,Healthfirst,Medicare Advantage,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 sjmc,Healthfirst Essential Plans,Medicaid Managed Care,Healthfirst,Essential Plan,essential|aliessa|allessa
-sjmc,Healthfirst QHP,Medicaid Managed Care,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+sjmc,Healthfirst QHP,Medicaid Managed Care,Healthfirst,Exchange (individual/small group),\bqhp\b|individual
 sjmc,MetroPlus Behavioral Health,Medicaid,MetroPlus,Behavioral carve-out,beacon|value options|carelon|behavioral|\bbhs\b
 sjmc,MetroPlus Behavioral Health,Medicare Advantage,MetroPlus,Behavioral carve-out,beacon|value options|carelon|behavioral|\bbhs\b
 sjmc,MetroPlus Behavioral Health Essential Plans,Medicaid Managed Care,MetroPlus,Behavioral carve-out,beacon|value options|carelon|behavioral|\bbhs\b
 sjmc,United Healthcare,Commercial,UnitedHealthcare,Commercial,default
 sjmc,VA,Other,Other,Government (VA/Tricare),tricare|veteran|^va \|\||community care
-sjmc,VNS,Medicare Advantage,VNS Health,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-sjmc,VNS Special Needs,Medicaid Managed Care,VNS Health,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+sjmc,VNS,Medicare Advantage,VNS Health,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+sjmc,VNS Special Needs,Medicaid Managed Care,VNS Health,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 sjr,1199 SEIU National Benefit Funds,1199 SEIU National Benefit Funds,1199SEIU,Commercial,default
-sjr,Aetna,Medicare,Aetna,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+sjr,Aetna,Medicare,Aetna,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 sjr,Aetna Health,Aetna Health,Aetna,Commercial,default
 sjr,Carelon Medicaid,Carelon Medicaid,Other,Behavioral carve-out,beacon|value options|carelon|behavioral|\bbhs\b
 sjr,Carelon Medicare,Carelon Medicare,Other,Behavioral carve-out,beacon|value options|carelon|behavioral|\bbhs\b
-sjr,Centers Plan For Healthy Living,Centers Plan For Healthy Living,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+sjr,Centers Plan For Healthy Living,Centers Plan For Healthy Living,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 sjr,Cigna,Cigna,Cigna,Commercial,default
 sjr,Emblem Health,GHI,EmblemHealth,Commercial,default
 sjr,Emblem Health,HIP,EmblemHealth,Commercial,default
 sjr,Emblem Health,Select Care Network,EmblemHealth,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-sjr,Empire Blue Cross Blue Shield,Individual Network,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-sjr,Empire Blue Cross Blue Shield HealthPlus Medicaid,Empire Blue Cross Blue Shield HealthPlus Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+sjr,Empire Blue Cross Blue Shield,Individual Network,Anthem / Empire BCBS,Exchange (individual/small group),\bqhp\b|individual
+sjr,Empire Blue Cross Blue Shield HealthPlus Medicaid,Empire Blue Cross Blue Shield HealthPlus Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 sjr,Empire Blue Cross Blue Shield Indemnity,Empire Blue Cross Blue Shield Indemnity,Anthem / Empire BCBS,Commercial,default
 sjr,Empire Blue Cross Blue Shield Medicaid Essential,Empire Blue Cross Blue Shield Medicaid Essential,Anthem / Empire BCBS,Essential Plan,essential|aliessa|allessa
 sjr,Empire Blue Cross Blue Shield PPO,Empire Blue Cross Blue Shield PPO,Anthem / Empire BCBS,Commercial,default
 sjr,Empire HMO,Empire HMO,Anthem / Empire BCBS,Commercial,default
-sjr,Fidelis,Medicare,Fidelis,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+sjr,Fidelis,Medicare,Fidelis,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 sjr,Fidelis Essential Plans,Fidelis Essential Plans,Fidelis,Essential Plan,essential|aliessa|allessa
 sjr,Fidelis Health Benefit Exchange,Fidelis Health Benefit Exchange,Fidelis,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-sjr,Fidelis Medicaid,Fidelis Medicaid,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-sjr,HIP Health Plan,Medicaid,EmblemHealth,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-sjr,HIP Health Plan,Medicare Advantage,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+sjr,Fidelis Medicaid,Fidelis Medicaid,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+sjr,HIP Health Plan,Medicaid,EmblemHealth,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+sjr,HIP Health Plan,Medicare Advantage,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 sjr,HealthFirst,Essential Plans,Healthfirst,Essential Plan,essential|aliessa|allessa
-sjr,HealthFirst,Medicaid,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-sjr,HealthFirst,Medicare,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-sjr,MVP,Medicare,MVP,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+sjr,HealthFirst,Medicaid,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+sjr,HealthFirst,Medicare,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+sjr,MVP,Medicare,MVP,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 sjr,MVP BHS,Medicaid,MVP,Behavioral carve-out,beacon|value options|carelon|behavioral|\bbhs\b
 sjr,MVP BHS,Medicare,MVP,Behavioral carve-out,beacon|value options|carelon|behavioral|\bbhs\b
 sjr,MVP Commercial,MVP Commercial,MVP,Commercial,default
 sjr,MVP Health Plan,Essential Plans,MVP,Essential Plan,essential|aliessa|allessa
-sjr,MVP Individual Exchange.Student Health Plan,MVP Individual Exchange.Student Health Plan,MVP,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+sjr,MVP Individual Exchange.Student Health Plan,MVP Individual Exchange.Student Health Plan,MVP,Exchange (individual/small group),\bqhp\b|individual
 sjr,MagnaCare,MagnaCare,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 sjr,MagnaCare,Medicaid Advantage,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 sjr,MagnaCare,Medicare Advantage,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 sjr,MagnaCare Casualty,MagnaCare Casualty,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 sjr,MetroPlus,Essential Plans,MetroPlus,Essential Plan,essential|aliessa|allessa
 sjr,MetroPlus Gold,MetroPlus Gold,MetroPlus,Commercial,default
-sjr,MetroPlus Medicare Advantage,MetroPlus Medicare Advantage,MetroPlus,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+sjr,MetroPlus Medicare Advantage,MetroPlus Medicare Advantage,MetroPlus,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 sjr,Molina Healthcare of New York,Essential Plans,Molina / Affinity,Essential Plan,essential|aliessa|allessa
 sjr,Molina Healthcare of New York,Exchange,Molina / Affinity,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-sjr,Molina Healthcare of New York,Medicaid,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+sjr,Molina Healthcare of New York,Medicaid,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 sjr,Oscar,Commercial,Oscar,Commercial,default
-sjr,Oscar,Medicare,Oscar,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-sjr,Partners Health Plan,Dually Enrolled,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-sjr,Partners Health Plan,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+sjr,Oscar,Medicare,Oscar,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+sjr,Partners Health Plan,Dually Enrolled,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+sjr,Partners Health Plan,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 sjr,United Behavioral Health of NY IPA,United Behavioral Health of NY IPA,Other,Behavioral carve-out,beacon|value options|carelon|behavioral|\bbhs\b
 sjr,United Healthcare,Oxford OX,UnitedHealthcare,Commercial,default
 sjr,United Healthcare,Oxford PA,UnitedHealthcare,Commercial,default
-sjr,VNS Choice,VNS Choice,VNS Health,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-sjr,Village Caremax,Village Caremax,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-sjr,Wellcare,Wellcare,Wellcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+sjr,VNS Choice,VNS Choice,VNS Health,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+sjr,Village Caremax,Village Caremax,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+sjr,Wellcare,Wellcare,Wellcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 wmc,AETNA HP NETWORK,AETNA HP NETWORK,Aetna,Commercial,default
-wmc,AFFINITY BY MOLINA MCR,AFFINITY BY MOLINA MCR,Molina / Affinity,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wmc,AFFINITY BY MOLINA MCR,AFFINITY BY MOLINA MCR,Molina / Affinity,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 wmc,Aetna,Aetna,Aetna,Commercial,default
 wmc,Aetna Employee,Aetna Employee,Aetna,Commercial,default
 wmc,BEACON COMMERCIAL,BEACON COMMERCIAL,Other,Behavioral carve-out,beacon|value options|carelon|behavioral|\bbhs\b
@@ -502,31 +502,31 @@ wmc,BEACON MEDICARE,BEACON MEDICARE,Other,Behavioral carve-out,beacon|value opti
 wmc,BLUE CROSS ACCESS,BLUE CROSS ACCESS,Anthem / Empire BCBS,Commercial,default
 wmc,BLUE CROSS COMMERCIAL/HEALTHY NY,BLUE CROSS COMMERCIAL/HEALTHY NY,Anthem / Empire BCBS,Commercial,default
 wmc,BLUE CROSS CONNECTION/EXCHANGE,BLUE CROSS CONNECTION/EXCHANGE,Anthem / Empire BCBS,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-wmc,BLUE CROSS MEDICARE,BLUE CROSS MEDICARE,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wmc,BLUE CROSS MEDICARE,BLUE CROSS MEDICARE,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 wmc,BLUE CROSS SMALL GROUP,BLUE CROSS SMALL GROUP,Anthem / Empire BCBS,Commercial,default
 wmc,CDPHP,CDPHP,CDPHP,Commercial,default
-wmc,CDPHP MEDICARE,CDPHP MEDICARE,CDPHP,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wmc,CDPHP MEDICARE,CDPHP MEDICARE,CDPHP,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 wmc,CIGNA PPO,CIGNA PPO,Cigna,Commercial,default
 wmc,CONSOLIDATED HEALTH,CONSOLIDATED HEALTH,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 wmc,EMBLEM GHI/HIP HMO/EPO/POS,EMBLEM GHI/HIP HMO/EPO/POS,EmblemHealth,Commercial,default
-wmc,EMBLEM GHI/HIP MEDICARE,EMBLEM GHI/HIP MEDICARE,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wmc,EMBLEM GHI/HIP MEDICARE,EMBLEM GHI/HIP MEDICARE,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 wmc,EMBLEM GHI/HIP PPO,EMBLEM GHI/HIP PPO,EmblemHealth,Commercial,default
 wmc,EMBLEM GHI/HIP PPO/CBP,EMBLEM GHI/HIP PPO/CBP,EmblemHealth,Commercial,default
 wmc,EMBLEM LEASED NETWORK,EMBLEM LEASED NETWORK,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 wmc,EMBLEM SELECT CARE (EXCHANGE),EMBLEM SELECT CARE (EXCHANGE),EmblemHealth,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 wmc,FIDELIS EXCHANGE,FIDELIS EXCHANGE,Fidelis,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-wmc,FIDELIS MEDICARE,FIDELIS MEDICARE,Fidelis,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wmc,FIDELIS MEDICARE,FIDELIS MEDICARE,Fidelis,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 wmc,MAGNACARE PREFERRED,MAGNACARE PREFERRED,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 wmc,MAGNACARE STANDARD,MAGNACARE STANDARD,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 wmc,MEDICARE,MEDICARE,Traditional Medicare,Traditional Medicare,^medicare \|\| medicare$|medigap
-wmc,MEDICARE MANAGED 100% WMC,MEDICARE MANAGED 100 WMC,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wmc,MEDICARE MANAGED 100% WMC,MEDICARE MANAGED 100 WMC,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 wmc,MULTIPLAN,MULTIPLAN,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 wmc,MVP EXCHANGE,MVP EXCHANGE,MVP,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-wmc,MVP GOLD (MCR),MVP GOLD (MCR),MVP,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wmc,MVP GOLD (MCR),MVP GOLD (MCR),MVP,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 wmc,MVP HMO/PPO,MVP HMO/PPO,MVP,Commercial,default
 wmc,Medigap,Medigap,Traditional Medicare,Traditional Medicare,^medicare \|\| medicare$|medigap
 wmc,NON CONTRACTED (100% POC),NON CONTRACTED (100 PerCent POC),Other,Out-of-network,non contracted
-wmc,OSCAR MEDICARE,OSCAR MEDICARE,Oscar,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wmc,OSCAR MEDICARE,OSCAR MEDICARE,Oscar,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 wmc,OXFORD EXCHANGE,OXFORD EXCHANGE,UnitedHealthcare,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
 wmc,PHCS,PHCS,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 wmc,SELF-PAY,SELF-PAY,Self-pay,Self-pay,self-pay
@@ -537,88 +537,88 @@ wmc,UHC COMPASS,UHC COMPASS,UnitedHealthcare,Commercial,default
 wmc,UHC Commercial,UHC Commercial,UnitedHealthcare,Commercial,default
 wmc,UHC EMPIRE,UHC EMPIRE,UnitedHealthcare,Commercial,default
 wmc,UHC EXCHANGE,UHC EXCHANGE,UnitedHealthcare,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-wmc,UHC MEDICARE,UHC MEDICARE,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wmc,UHC MEDICARE,UHC MEDICARE,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 wmc,VALUE OPTIONS (Non-HMO),VALUE OPTIONS (Non-HMO),Other,Behavioral carve-out,beacon|value options|carelon|behavioral|\bbhs\b
 wmc,VALUE OPTIONS COMM (CHCS),VALUE OPTIONS COMM (CHCS),Other,Behavioral carve-out,beacon|value options|carelon|behavioral|\bbhs\b
 wmc,VALUE OPTIONS GHI BMP,VALUE OPTIONS GHI BMP,EmblemHealth,Behavioral carve-out,beacon|value options|carelon|behavioral|\bbhs\b
 wmc,VALUE OPTIONS MEDICARE (CHCS),VALUE OPTIONS MEDICARE (CHCS),Other,Behavioral carve-out,beacon|value options|carelon|behavioral|\bbhs\b
 wmc,VETERANS (MCR),VETERANS (MCR),Other,Government (VA/Tricare),tricare|veteran|^va \|\||community care
-wmc,VNS MEDICARE CHOICE,VNS MEDICARE CHOICE,VNS Health,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-wmc,WellCare Exchange (MCR),WellCare Exchange (MCR),Wellcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wmc,VNS MEDICARE CHOICE,VNS MEDICARE CHOICE,VNS Health,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wmc,WellCare Exchange (MCR),WellCare Exchange (MCR),Wellcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 wph,Aetna,ASA,Aetna,Commercial,default
 wph,Aetna,Commercial,Aetna,Commercial,default
-wph,Aetna,Medicare,Aetna,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wph,Aetna,Medicare,Aetna,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 wph,American Postal Workers,APWU Health Plan,Other,Commercial,default
 wph,Anthem,Blue Access,Anthem / Empire BCBS,Commercial,default
-wph,Anthem,Child Health Plus,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+wph,Anthem,Child Health Plus,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 wph,Anthem,Connection LG,Anthem / Empire BCBS,Commercial,default
 wph,Anthem,Connection SG,Anthem / Empire BCBS,Commercial,default
 wph,Anthem,"Essential 1, 2, 3, 4",Anthem / Empire BCBS,Essential Plan,essential|aliessa|allessa
-wph,Anthem,HARP,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+wph,Anthem,HARP,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 wph,Anthem,"HMO, POS, PPO, EPO, Indemnity",Anthem / Empire BCBS,Commercial,default
-wph,Anthem,Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-wph,Anthem,Medicare,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wph,Anthem,Medicaid,Anthem / Empire BCBS,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+wph,Anthem,Medicare,Anthem / Empire BCBS,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 wph,Anthem,SG EPO/PPO,Anthem / Empire BCBS,Commercial,default
-wph,Centerlight,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-wph,Centerlight,PACE,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+wph,Centerlight,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wph,Centerlight,PACE,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 wph,Centivo,Centivo Network,Other,Commercial,default
 wph,Cigna,Commercial,Cigna,Commercial,default
 wph,Cigna,LocalPlus,Cigna,Commercial,default
-wph,Elderplan,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wph,Elderplan,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 wph,Emblem,Essential Plan 1 & 2,EmblemHealth,Essential Plan,essential|aliessa|allessa
 wph,Emblem,Essential Plan 3 & 4,EmblemHealth,Essential Plan,essential|aliessa|allessa
 wph,Emblem,GHI,EmblemHealth,Commercial,default
 wph,Emblem,GHI Access Network,EmblemHealth,Commercial,default
 wph,Emblem,"HIP -Commerical EPO, PPO",EmblemHealth,Commercial,default
 wph,Emblem,HIP HMO,EmblemHealth,Commercial,default
-wph,Emblem,HIP_Medicaid FHP & CHP,EmblemHealth,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-wph,Emblem,Medicare,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wph,Emblem,HIP_Medicaid FHP & CHP,EmblemHealth,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+wph,Emblem,Medicare,EmblemHealth,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 wph,Emblem,Select Care,EmblemHealth,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-wph,Fidelis,CHP,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+wph,Fidelis,CHP,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 wph,Fidelis,Essential Plan - Aliessa,Fidelis,Essential Plan,essential|aliessa|allessa
-wph,Fidelis,HARP,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-wph,Fidelis,Medicaid,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-wph,Fidelis,Medicare,Fidelis,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-wph,Fidelis,QHP,Fidelis,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-wph,Hamaspik,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-wph,Hamaspik,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-wph,HealthFirst,Child Health Plus,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+wph,Fidelis,HARP,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+wph,Fidelis,Medicaid,Fidelis,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+wph,Fidelis,Medicare,Fidelis,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wph,Fidelis,QHP,Fidelis,Exchange (individual/small group),\bqhp\b|individual
+wph,Hamaspik,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+wph,Hamaspik,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wph,HealthFirst,Child Health Plus,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 wph,HealthFirst,Essential Plan 3 & 4,Healthfirst,Essential Plan,essential|aliessa|allessa
-wph,HealthFirst,Medicaid,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-wph,HealthFirst,Medicaid HARP,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-wph,HealthFirst,Medicare,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-wph,HealthFirst,QHP,Healthfirst,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-wph,Humana,Medicare,Humana,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-wph,Longevity,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-wph,MVP,Child Health Plan and HARP,MVP,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+wph,HealthFirst,Medicaid,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+wph,HealthFirst,Medicaid HARP,Healthfirst,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+wph,HealthFirst,Medicare,Healthfirst,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wph,HealthFirst,QHP,Healthfirst,Exchange (individual/small group),\bqhp\b|individual
+wph,Humana,Medicare,Humana,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wph,Longevity,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wph,MVP,Child Health Plan and HARP,MVP,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 wph,MVP,"Essential 1, 2, 3 & 4",MVP,Essential Plan,essential|aliessa|allessa
 wph,MVP,Essential 3 & 4,MVP,Essential Plan,essential|aliessa|allessa
 wph,MVP,Exchange,MVP,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
-wph,MVP,Medicaid,MVP,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-wph,Medicaid,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-wph,Molina Healthcare of NY Affinity,CHP,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+wph,MVP,Medicaid,MVP,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+wph,Medicaid,Medicaid,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+wph,Molina Healthcare of NY Affinity,CHP,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 wph,Molina Healthcare of NY Affinity,Essential Plan 1 & 2,Molina / Affinity,Essential Plan,essential|aliessa|allessa
 wph,Molina Healthcare of NY Affinity,Essential Plan 200-250,Molina / Affinity,Essential Plan,essential|aliessa|allessa
 wph,Molina Healthcare of NY Affinity,Essential Plan 3 & 4,Molina / Affinity,Essential Plan,essential|aliessa|allessa
-wph,Molina Healthcare of NY Affinity,HARP,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-wph,Molina Healthcare of NY Affinity,Medicaid,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+wph,Molina Healthcare of NY Affinity,HARP,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+wph,Molina Healthcare of NY Affinity,Medicaid,Molina / Affinity,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 wph,Northwell,Northwell,Northwell Direct,Commercial,default
 wph,Oscar,Commercial,Oscar,Commercial,default
-wph,Partners Health Plan,Partners Health,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+wph,Partners Health Plan,Partners Health,Other,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 wph,Point Comfort,Point Comfort,Rental network,Rental network,multiplan|claritev|\bphcs\b|magna|first health|beech street|consumer health network|devon|point comfort|worldwide|\bqhm\b|consolidated health|emblem leased
 wph,UHC,All Payer,UnitedHealthcare,Commercial,default
 wph,UHC,Compass,UnitedHealthcare,Commercial,default
-wph,UHC,HARP,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-wph,UHC,Medicare,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-wph,UHC,NY CHIP,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+wph,UHC,HARP,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+wph,UHC,Medicare,UnitedHealthcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wph,UHC,NY CHIP,UnitedHealthcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 wph,UHC,NY Essential,UnitedHealthcare,Essential Plan,essential|aliessa|allessa
 wph,UHC,Oxford,UnitedHealthcare,Commercial,default
-wph,VNSNY Choice,Medicare,VNS Health,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-wph,VNSNY Select Health,VNSNY Select Health,VNS Health,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
+wph,VNSNY Choice,Medicare,VNS Health,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wph,VNSNY Select Health,VNSNY Select Health,VNS Health,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
 wph,Veterans Affair,Community Care,Other,Government (VA/Tricare),tricare|veteran|^va \|\||community care
-wph,VillageCareMAX,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wph,VillageCareMAX,Medicare,Other,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
 wph,Wellcare,Allessa,Wellcare,Essential Plan,essential|aliessa|allessa
-wph,Wellcare,CHP,Wellcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-wph,Wellcare,Medicaid,Wellcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health
-wph,Wellcare,Medicare,Wellcare,Medicare Advantage,medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
-wph,Wellcare,QHP,Wellcare,Exchange (individual/small group),exchange|\bqhp\b|nystateofhealth|individual|select care|student health
+wph,Wellcare,CHP,Wellcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+wph,Wellcare,Medicaid,Wellcare,Medicaid managed care,medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health
+wph,Wellcare,Medicare,Wellcare,Medicare Advantage,medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$
+wph,Wellcare,QHP,Wellcare,Exchange (individual/small group),\bqhp\b|individual

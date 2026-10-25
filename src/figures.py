@@ -125,16 +125,16 @@ def fig_hospitals(mode):
 
 
 def fig_payers(mode):
-    """Like-for-like insurer index: plan rate / typical commercial rate at the same hospital and code."""
+    """Like-for-like insurer index: insurer rate / typical insurer rate at the same hospital and code."""
     t = THEMES[mode]
-    df = pd.read_csv(RESULTS / "payer_index.csv").sort_values("index_vs_typical_commercial")
+    df = pd.read_csv(RESULTS / "payer_index.csv").sort_values("index_vs_typical_insurer")
     fig, ax = plt.subplots(figsize=(8.5, 4.2))
     fig.subplots_adjust(left=0.3, right=0.96, top=0.78, bottom=0.13)
     for y, r in enumerate(df.itertuples()):
         ax.plot([r.p25, r.p75], [y, y], color=t["data"], linewidth=2, alpha=0.45, solid_capstyle="round")
-        ax.scatter([r.index_vs_typical_commercial], [y], s=70, color=t["data"], zorder=3,
+        ax.scatter([r.index_vs_typical_insurer], [y], s=70, color=t["data"], zorder=3,
                    edgecolors=t["surface"], linewidths=2)
-        ax.text(r.index_vs_typical_commercial, y + 0.25, f"{r.index_vs_typical_commercial:.2f}",
+        ax.text(r.index_vs_typical_insurer, y + 0.25, f"{r.index_vs_typical_insurer:.2f}",
                 color=t["text"], fontsize=9, ha="center", va="bottom")
     ax.axvline(1, color=t["text2"], linewidth=1, linestyle=(0, (3, 3)))
     ax.set_yticks(range(len(df)))
@@ -142,7 +142,8 @@ def fig_payers(mode):
     ax.set_xlim(0, 2.5)
     style(ax, t)
     finish(fig, ax, t, "Which insurers pay more for the same procedure at the same hospital?",
-           "1.00 = the typical commercial rate for that hospital and code. Dot = median; line = middle half.",
+           "1.00 = the typical insurer's rate at that hospital for that code (each insurer counted once).\n"
+           "Dot = median; line = middle half.",
            "fig3_payers", mode)
 
 

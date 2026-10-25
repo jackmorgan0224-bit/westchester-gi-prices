@@ -4,8 +4,8 @@ wph,White Plains Hospital,EGD,43235,Upper endoscopy (EGD) (diagnostic),15,case r
 mmv,Montefiore Mount Vernon Hospital,EGD,43235,Upper endoscopy (EGD) (diagnostic),17,case rate,5669.0,1647.0,13302.0,8.1,1132.18,5.01
 mnr,Montefiore New Rochelle Hospital,EGD,43235,Upper endoscopy (EGD) (diagnostic),12,case rate,4939.0,3549.0,18107.0,5.1,1132.18,4.36
 wmc,Westchester Medical Center,EGD,43235,Upper endoscopy (EGD) (diagnostic),11,case rate,3936.0,2654.0,7255.0,2.7,1132.18,3.48
-phelps,Phelps Hospital,EGD,43235,Upper endoscopy (EGD) (diagnostic),21,case rate,3352.0,2186.0,9139.0,4.2,1132.18,2.96
 nwh,Northern Westchester Hospital,EGD,43235,Upper endoscopy (EGD) (diagnostic),21,case rate,3352.0,2186.0,7489.0,3.4,1132.18,2.96
+phelps,Phelps Hospital,EGD,43235,Upper endoscopy (EGD) (diagnostic),21,case rate,3352.0,2186.0,9139.0,4.2,1132.18,2.96
 wph,White Plains Hospital,EUS,43237,Upper EUS (limited),15,case rate,7462.0,4043.0,29019.0,7.2,2395.34,3.12
 mmv,Montefiore Mount Vernon Hospital,EUS,43237,Upper EUS (limited),17,case rate,7276.0,1647.0,13302.0,8.1,2395.34,3.04
 mnr,Montefiore New Rochelle Hospital,EUS,43237,Upper EUS (limited),12,case rate,7173.0,3549.0,18107.0,5.1,2395.34,2.99
@@ -21,8 +21,8 @@ nyp_wch,NewYork-Presbyterian Westchester,EUS,43238,Upper EUS with fine-needle as
 wmc,Westchester Medical Center,EUS,43238,Upper EUS with fine-needle aspiration (limited),11,case rate,6354.0,4318.0,8355.0,1.9,2395.34,2.65
 nyp_hv,NewYork-Presbyterian Hudson Valley Hospital,EUS,43238,Upper EUS with fine-needle aspiration (limited),6,case rate,5556.0,2772.0,9686.0,3.5,2395.34,2.32
 sjr,St. John's Riverside Hospital,EUS,43238,Upper EUS with fine-needle aspiration (limited),3,case rate,3770.0,3701.0,3783.0,1.0,2395.34,1.57
-phelps,Phelps Hospital,EUS,43238,Upper EUS with fine-needle aspiration (limited),21,case rate,3352.0,2749.0,9139.0,3.3,2395.34,1.4
 nwh,Northern Westchester Hospital,EUS,43238,Upper EUS with fine-needle aspiration (limited),21,case rate,3352.0,2749.0,7489.0,2.7,2395.34,1.4
+phelps,Phelps Hospital,EUS,43238,Upper EUS with fine-needle aspiration (limited),21,case rate,3352.0,2749.0,9139.0,3.3,2395.34,1.4
 nyp_wch,NewYork-Presbyterian Westchester,EGD,43239,Upper endoscopy (EGD) with biopsy,7,case rate,7031.0,2628.0,12701.0,4.8,1132.18,6.21
 wph,White Plains Hospital,EGD,43239,Upper endoscopy (EGD) with biopsy,15,case rate,6750.0,4043.0,29019.0,7.2,1132.18,5.96
 mmv,Montefiore Mount Vernon Hospital,EGD,43239,Upper endoscopy (EGD) with biopsy,17,case rate,5669.0,1647.0,13302.0,8.1,1132.18,5.01
@@ -30,8 +30,8 @@ mnr,Montefiore New Rochelle Hospital,EGD,43239,Upper endoscopy (EGD) with biopsy
 wmc,Westchester Medical Center,EGD,43239,Upper endoscopy (EGD) with biopsy,11,case rate,4923.0,2654.0,7255.0,2.7,1132.18,4.35
 nyp_hv,NewYork-Presbyterian Hudson Valley Hospital,EGD,43239,Upper endoscopy (EGD) with biopsy,6,case rate,4497.0,2772.0,9686.0,3.5,1132.18,3.97
 sjr,St. John's Riverside Hospital,EGD,43239,Upper endoscopy (EGD) with biopsy,3,case rate,3770.0,3701.0,3783.0,1.0,1132.18,3.33
-phelps,Phelps Hospital,EGD,43239,Upper endoscopy (EGD) with biopsy,21,case rate,3352.0,2186.0,9139.0,4.2,1132.18,2.96
 nwh,Northern Westchester Hospital,EGD,43239,Upper endoscopy (EGD) with biopsy,21,case rate,3352.0,2186.0,7489.0,3.4,1132.18,2.96
+phelps,Phelps Hospital,EGD,43239,Upper endoscopy (EGD) with biopsy,21,case rate,3352.0,2186.0,9139.0,4.2,1132.18,2.96
 wph,White Plains Hospital,EUS,43242,Upper EUS with fine-needle aspiration (transmural),15,case rate,7462.0,5667.0,29019.0,5.1,2395.34,3.12
 mmv,Montefiore Mount Vernon Hospital,EUS,43242,Upper EUS with fine-needle aspiration (transmural),17,case rate,7276.0,1647.0,13302.0,8.1,2395.34,3.04
 mnr,Montefiore New Rochelle Hospital,EUS,43242,Upper EUS with fine-needle aspiration (transmural),12,case rate,7173.0,5413.0,18107.0,3.3,2395.34,2.99
@@ -50,8 +50,8 @@ wmc,Westchester Medical Center,Colonoscopy,45378,Colonoscopy (diagnostic),11,cas
 mmv,Montefiore Mount Vernon Hospital,Colonoscopy,45378,Colonoscopy (diagnostic),17,case rate,5669.0,1647.0,13302.0,8.1,1160.85,4.88
 mnr,Montefiore New Rochelle Hospital,Colonoscopy,45378,Colonoscopy (diagnostic),12,case rate,4939.0,3549.0,18107.0,5.1,1160.85,4.25
 nyp_hv,NewYork-Presbyterian Hudson Valley Hospital,Colonoscopy,45378,Colonoscopy (diagnostic),6,case rate,4463.0,2772.0,9803.0,3.5,1160.85,3.84
-nwh,Northern Westchester Hospital,Colonoscopy,45378,Colonoscopy (diagnostic),21,case rate,3108.0,2186.0,6241.0,2.9,1160.85,2.68
 phelps,Phelps Hospital,Colonoscopy,45378,Colonoscopy (diagnostic),21,case rate,3108.0,2186.0,9139.0,4.2,1160.85,2.68
+nwh,Northern Westchester Hospital,Colonoscopy,45378,Colonoscopy (diagnostic),21,case rate,3108.0,2186.0,6241.0,2.9,1160.85,2.68
 sjr,St. John's Riverside Hospital,Colonoscopy,45378,Colonoscopy (diagnostic),11,case rate,1322.0,826.0,1548.0,1.9,1160.85,1.14
 mmv,Montefiore Mount Vernon Hospital,Colonoscopy,45380,Colonoscopy with biopsy,17,case rate,7276.0,1647.0,13302.0,8.1,1493.75,4.87
 mnr,Montefiore New Rochelle Hospital,Colonoscopy,45380,Colonoscopy with biopsy,12,case rate,7173.0,3549.0,18107.0,5.1,1493.75,4.8
@@ -77,8 +77,8 @@ wmc,Westchester Medical Center,Colonoscopy,G0105,Screening colonoscopy (high ris
 mmv,Montefiore Mount Vernon Hospital,Colonoscopy,G0105,Screening colonoscopy (high risk),15,case rate,5003.0,3937.0,18107.0,4.6,1160.85,4.31
 mnr,Montefiore New Rochelle Hospital,Colonoscopy,G0105,Screening colonoscopy (high risk),14,case rate,4939.0,3549.0,18107.0,5.1,1160.85,4.25
 nyp_hv,NewYork-Presbyterian Hudson Valley Hospital,Colonoscopy,G0105,Screening colonoscopy (high risk),6,case rate,4463.0,2772.0,7229.0,2.6,1160.85,3.84
-nwh,Northern Westchester Hospital,Colonoscopy,G0105,Screening colonoscopy (high risk),21,case rate,3352.0,2186.0,7489.0,3.4,1160.85,2.89
 phelps,Phelps Hospital,Colonoscopy,G0105,Screening colonoscopy (high risk),21,case rate,3352.0,2186.0,7490.0,3.4,1160.85,2.89
+nwh,Northern Westchester Hospital,Colonoscopy,G0105,Screening colonoscopy (high risk),21,case rate,3352.0,2186.0,7489.0,3.4,1160.85,2.89
 nyp_wch,NewYork-Presbyterian Westchester,Colonoscopy,G0121,Screening colonoscopy (average risk),7,case rate,9434.0,968.0,12701.0,13.1,1160.85,8.13
 wph,White Plains Hospital,Colonoscopy,G0121,Screening colonoscopy (average risk),15,case rate,6199.0,3424.0,18105.0,5.3,1160.85,5.34
 wmc,Westchester Medical Center,Colonoscopy,G0121,Screening colonoscopy (average risk),11,case rate,5770.0,3038.0,16502.0,5.4,1160.85,4.97

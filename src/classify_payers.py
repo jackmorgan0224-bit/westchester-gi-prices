@@ -55,8 +55,11 @@ SEGMENT_RULES = [
     ("Traditional Medicare", r"^medicare \|\| medicare$|medigap"),
     ("Rental network", RENTAL),
     ("Essential Plan", r"essential|aliessa|allessa"),
-    ("Medicaid managed care", r"medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv primary care|vnsny select|partners health"),
-    ("Medicare Advantage", r"medicare|\bmcr\b|snp|dual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$"),
+    # A QHP or individual-market product is an exchange plan even when the hospital files it
+    # under a Medicaid/Medicare plan column (e.g. "Healthfirst QHP || Medicaid Managed Care")
+    ("Exchange (individual/small group)", r"\bqhp\b|individual"),
+    ("Medicaid managed care", r"medicaid advantage|\bpace\b|\bfida\b|dually enrolled|harp|child health|\bchp\b|\bchip\b|medicaid|\bmcd\b|\bfhp\b|hiv|vnsny select|partners health"),
+    ("Medicare Advantage", r"medicare|\bmcr\b|snp|\bdual|elderplan|longevity|hamaspik|centerlight|villagecare|village caremax|vns choice|vnsny choice|centers plan|senior whole health|humana|^wellcare \|\| wellcare$"),
     ("Exchange (individual/small group)", r"exchange|\bqhp\b|nystateofhealth|individual|select care|student health"),
 ]
 

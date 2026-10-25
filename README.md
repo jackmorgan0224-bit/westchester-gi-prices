@@ -1,15 +1,15 @@
 # What Westchester Hospitals Charge for a Colonoscopy
 
 **Every hospital now has to publish the prices it negotiates with each insurer. What do those files say about GI endoscopy in Westchester County, and can a patient actually use them?**
-I pulled the official price files for all 10 acute care hospitals in Westchester, extracted every colonoscopy, upper endoscopy (EGD), and endoscopic ultrasound (EUS) rate, benchmarked each one against Medicare, and checked the files against CMS's 2026 rules.
+I pulled the official price files for all 10 non-VA acute care hospitals in Westchester, extracted every colonoscopy, upper endoscopy (EGD), and endoscopic ultrasound (EUS) rate, benchmarked each one against Medicare, and checked the files against CMS's 2026 rules.
 
 | | |
 |---|---|
 | **Short answer** | The same diagnostic colonoscopy pays the hospital about **4x Medicare** from a commercial plan, **1x** from Medicare Advantage, and **0.8x** from Medicaid. Which hospital and which insurer matter as much as the procedure. |
-| **Compliance takeaway** | All 10 files pass every CMS v3.0 format rule I tested on these rows, but **788 published rates can't be turned into a dollar amount**, and one hospital lists percentages like "6300%". → [**Compliance findings**](docs/compliance.md) |
+| **Compliance takeaway** | All 10 files pass every CMS v3.0 format rule I tested on these rows, but **813 rates are set as a percent of a visit's total billed charges**, which the files give no way to estimate, and one hospital lists percentages like "6300%". → [**Compliance findings**](docs/compliance.md) |
 | **Data** | 10 hospital price files (1.3 GB; CSV tall, CSV wide, and JSON), 20,377 GI rows, 9,903 negotiated rates, 623 payer/plan names mapped to insurer and line of business |
 | **Benchmark** | Medicare outpatient (OPPS) rates, Oct 2026 Addendum B, adjusted by each hospital's FY 2026 wage index |
-| **Built with** | Python · SQL (DuckDB) · pytest · 10 build-stopping validation checks |
+| **Built with** | Python · SQL (DuckDB) · pytest · 10 build-stopping validation checks · independent audit ([below](#audit)) |
 | **Status** | ✅ Complete (Oct 2026) |
 
 <picture>
@@ -34,9 +34,9 @@ I pulled the official price files for all 10 acute care hospitals in Westchester
 |---|---|---|---|
 | 1 | **The payer's line of business sets the price more than anything else.** | Diagnostic colonoscopy: commercial **4.1x** Medicare (median $4,724), Medicare Advantage **1.0x**, Medicaid managed care **0.8x** | [Memo](docs/memo.md#1-line-of-business) |
 | 2 | **Hospital choice is worth thousands of dollars to a commercial plan.** | Median commercial case rate for the same procedure: **$1,322** at St. John's Riverside to **$6,803** at NYP Westchester (5.1x apart) | [Memo](docs/memo.md#2-hospital) |
-| 3 | **UnitedHealthcare pays the most, MVP the least, for the same procedure at the same hospital.** | UnitedHealthcare **47% above** the typical commercial rate; Cigna +25%; Aetna, Emblem, Anthem at about the norm; MVP **38% below** | [Memo](docs/memo.md#3-insurer) |
+| 3 | **At the same hospital for the same procedure, UnitedHealthcare and Cigna pay above the typical insurer; Oscar and MVP pay well below.** | UnitedHealthcare and Cigna run **16% to 47% above** typical under every counting method; Emblem 0% to 51% depending on method; Anthem and Aetna at the norm; MVP about **40% below** | [Memo](docs/memo.md#3-insurer) |
 | 4 | **Commercial case rates ignore complexity; Medicare doesn't.** | **84 of 113** commercial plans pay the same price for a diagnostic colonoscopy and a polyp removal. Medicare pays 29% more for the polyp removal. | [Memo](docs/memo.md#4-flat-case-rates) |
-| 5 | **The files are formatted correctly but often unusable.** | 0 failures on 9 CMS conditional requirements; **788** percent-of-charges rates with no gross charge to apply them to; **134** percentages over 1,000% | [Compliance](docs/compliance.md) |
+| 5 | **The files are formatted correctly but hard to use.** | 0 failures on 9 CMS conditional requirements; **813** rates set as a percent of a visit's total billed charges, which the files never estimate; **134** percentages over 1,000% at one hospital | [Compliance](docs/compliance.md) |
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/figures/fig2_hospitals_dark.png">
@@ -45,7 +45,7 @@ I pulled the official price files for all 10 acute care hospitals in Westchester
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/figures/fig3_payers_dark.png">
-  <img alt="Insurer index versus the typical commercial rate at the same hospital and code: UnitedHealthcare 1.47, Cigna 1.25, EmblemHealth 1.00, Aetna 1.00, Anthem/Empire 0.96, Oscar 0.76, MVP 0.62." src="docs/figures/fig3_payers_light.png" width="720">
+  <img alt="Insurer index versus the typical insurer at the same hospital and code, each insurer counted once: EmblemHealth 1.51, UnitedHealthcare 1.16, Cigna 1.16, Anthem/Empire 1.00, Aetna 0.97, Oscar 0.73, MVP 0.61." src="docs/figures/fig3_payers_light.png" width="720">
 </picture>
 
 ## Where to go next
@@ -78,7 +78,7 @@ flowchart LR
 
 **Finding the files the way CMS intends.** Every hospital must post a `cms-hpt.txt` file at the root of its website listing each location's price file. The fetch step reads that index instead of hard-coding URLs, which matters: the first copy of one hospital's file I found through a third-party site was a year-old version at an outdated address. The index pointed to the current one.
 
-**Three formats, one table.** CMS allows a "tall" CSV (one row per payer), a "wide" CSV (one column group per payer, hundreds of columns), and JSON (600+ MB for two Northwell hospitals, streamed rather than loaded). All three land in the same 26-column table with values copied exactly as published.
+**Three formats, one table.** CMS allows a "tall" CSV (one row per payer), a "wide" CSV (one column group per payer, hundreds of columns), and JSON (600+ MB for two Northwell hospitals, streamed rather than loaded). All three land in the same 26-column table with values copied exactly as published; any later collapsing of repeated lines is described in the [methods](docs/methods.md).
 
 **Validation.** Every build runs 10 checks ([`sql/02_validation.sql`](sql/02_validation.sql)): all hospitals present, no rows lost in joins, every payer classified, the Medicare benchmark recomputed from Addendum B, uniqueness, and parse checks. The tests ([`tests/test_pipeline.py`](tests/test_pipeline.py)) re-read one raw file of each format with a separate code path and confirm the database matches.
 
@@ -95,11 +95,20 @@ flowchart LR
 | White Plains Hospital | Montefiore Einstein | CSV tall | 2026-09-28 |
 | Montefiore Mount Vernon | Montefiore Einstein | CSV tall | 2026-09-28 |
 | Montefiore New Rochelle | Montefiore Einstein | CSV tall | 2026-09-28 |
-| St. John's Riverside | St. John's Riverside | CSV tall | 2026-03-27 |
+| St. John's Riverside | St. John's Riverside | CSV wide | 2026-03-27 |
 | St. Joseph's Medical Center | St. Joseph's | CSV tall | 2026-07-13 |
 
 Files downloaded Oct 25, 2026. Raw files are not committed (1.3 GB); `src/fetch_mrfs.py` re-downloads them and records a SHA-256 of each in `data/raw/manifest.csv`.
 </details>
+
+## Audit
+
+Before publishing, the project was checked two ways, both independent of the pipeline code:
+
+1. **Full re-extraction.** A second extractor that shares no code with the pipeline ([`src/audit_reextract.py`](src/audit_reextract.py): pandas for every CSV, its own JSON walk) rebuilt all 20,377 GI rows from the raw files. **20,377 of 20,377 rows match on all 16 compared fields** (after normalizing numbers to 2 decimals and whitespace).
+2. **An adversarial AI review.** A separate AI review agent (Claude), told to look for errors rather than confirm them, re-parsed every raw file with its own code, re-applied the price rules, and matched **5,527 of 5,527** core negotiated rates on dollar amount, payer, plan, code, and basis. It also recomputed the Medicare benchmark (exact match) and the published numbers and claims, in rounds of about 215, then about 255 after revisions, then a final check of every edited statement.
+
+The first round caught 6 wrong statements and several method issues, all fixed in this version: a file format mislabeled in the docs, one rounded range, an overstated compliance claim, 6 misclassified payer/plan names (fixing them moved the Medicaid colonoscopy median from $959 to $917; no multiple of Medicare changed after rounding), and an insurer index that let hospitals with many identical product lines count several times. The insurer comparison now counts each insurer once per hospital and procedure, and [`results/payer_index_sensitivity.csv`](results/payer_index_sensitivity.csv) shows it under three counting methods. The second round confirmed 252 of about 255 claims and flagged 2 wrong statements, 1 unverifiable claim, and some wording; the final check found 1 more wrong sentence. All are fixed here.
 
 ## Reproduce it
 

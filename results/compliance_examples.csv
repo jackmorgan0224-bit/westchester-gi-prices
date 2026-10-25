@@ -1,12 +1,12 @@
 hospital_id,code,payer_name,plan_name,methodology,negotiated_dollar,negotiated_percentage,gross_charge,allowed_count,median_amount,check_id
 wph,43235,Emblem,GHI Access Network,percent of total billed charges,,60,,0,,U1
-mmv,43235,Centivo,Centivo Network,percent of total billed charges,,65,,0,,U1
 nyp_wch,43235,Beech Street,All Commercial Plans,percent of total billed charges,,90,,0,,U1
 wmc,43235,CONSOLIDATED HEALTH,CONSOLIDATED HEALTH,percent of total billed charges,,75,,0,,U1
 mnr,43235,Cigna,Commercial,percent of total billed charges,,66.01,,0,,U1
-mmv,43237,Centivo,Centivo Network,percent of total billed charges,,65,,0,,U1b
-mnr,43235,Cigna,Commercial,percent of total billed charges,,66.01,,0,,U1b
+mmv,43235,Centivo,Centivo Network,percent of total billed charges,,65,,0,,U1
 nyp_wch,43235,Beech Street,All Commercial Plans,percent of total billed charges,,90,,0,,U1b
 wmc,43237,CONSOLIDATED HEALTH,CONSOLIDATED HEALTH,percent of total billed charges,,75,,0,,U1b
 wph,45392,Emblem,GHI Access Network,percent of total billed charges,,60,,0,,U1b
+mmv,43237,Centivo,Centivo Network,percent of total billed charges,,65,,0,,U1b
+mnr,43235,Cigna,Commercial,percent of total billed charges,,66.01,,0,,U1b
 wmc,43235,EMBLEM GHI/HIP HMO/EPO/POS,EMBLEM GHI/HIP HMO/EPO/POS,percent of total billed charges,,6300,,0,,U2

@@ -93,6 +93,13 @@ def test_json_nyp_hudson_valley():
     ("mmv", "Multiplan", "Multiplan", "Rental network", "Rental network"),
     ("phelps", "Emblem", "GHI Medicare", "EmblemHealth", "Medicare Advantage"),
     ("sjr", "Carelon Medicaid", "Carelon Medicaid", "Other", "Behavioral carve-out"),
+    # Names the independent audit found misclassified in an earlier version
+    ("sjr", "Empire Blue Cross Blue Shield", "Individual Network", "Anthem / Empire BCBS", "Exchange (individual/small group)"),
+    ("sjr", "MVP Individual Exchange.Student Health Plan", "MVP Individual Exchange.Student Health Plan", "MVP", "Exchange (individual/small group)"),
+    ("sjmc", "Healthfirst QHP", "Medicaid Managed Care", "Healthfirst", "Exchange (individual/small group)"),
+    ("mmv", "MetroPlus", "HIV_SNP", "MetroPlus", "Medicaid managed care"),
+    ("mnr", "MetroPlus", "HIV SNP", "MetroPlus", "Medicaid managed care"),
+    ("mmv", "MetroPlus", "Default Duals", "MetroPlus", "Medicare Advantage"),
 ])
 def test_payer_classification(hospital, payer, plan, family, segment):
     got = classify(hospital, payer, plan)

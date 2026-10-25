@@ -1,6 +1,6 @@
 hospital_id,code,payer_name,plan_name,payer_family,segment,case_rate,fee_schedule_line,case_rate_x_line
-mmv,43235,Aetna,Commercial,Aetna,Commercial,3885.0,908.67,4.28
 mmv,43235,Aetna,ASA,Aetna,Commercial,4346.0,908.67,4.78
+mmv,43235,Aetna,Commercial,Aetna,Commercial,3885.0,908.67,4.28
 mmv,45378,Aetna,Commercial,Aetna,Commercial,3885.0,1075.02,3.61
 mmv,45378,Aetna,ASA,Aetna,Commercial,4346.0,1075.02,4.04
 wmc,43235,BEACON COMMERCIAL,BEACON COMMERCIAL,Other,Behavioral carve-out,386.0,1464.62,0.26

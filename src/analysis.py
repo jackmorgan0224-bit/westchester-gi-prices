@@ -16,6 +16,7 @@ Outputs in results/:
 - segment_summary.csv        each code x segment: median % of Medicare across all plans
 - commercial_by_hospital.csv each core code x hospital: commercial median, low, high, spread
 - payer_index.csv            like-for-like insurer comparison (same hospital, same code)
+- payer_index_sensitivity.csv the insurer index under three ways of counting plans
 - chargemaster.csv           gross charge and cash price vs. Medicare, by hospital x code
 - dual_basis.csv             plans that publish both a case rate and a fee-schedule line
 - coverage.csv               how many rows had a usable dollar amount, by hospital
@@ -63,30 +64,67 @@ QUERIES = {
         GROUP BY ALL
         ORDER BY n.code, median_dollar DESC
     """,
-    # Like-for-like: divide each commercial plan's rate by the median commercial rate for the
-    # same hospital and code, so hospital price levels and procedure mix cancel out. A payer
-    # with index 1.20 pays 20% more than the typical commercial plan at the same hospitals.
+    # Like-for-like insurer comparison. Hospitals list very different numbers of products
+    # per insurer (Northwell lists five UnitedHealthcare/Oxford products with identical rates;
+    # NYP lists one "All Commercial Plans" row), so plan rows are first collapsed to one rate
+    # per insurer x hospital x code (the median of that insurer's products). Each insurer's
+    # rate is then divided by the median across insurers at the same hospital and code, which
+    # cancels out hospital price level and procedure mix. Index 1.20 = 20% above the typical
+    # insurer at the same hospitals for the same procedures.
     "payer_index": """
-        WITH base AS (
-            SELECT hospital_id, code, median(negotiated_dollar) AS hosp_code_median
+        WITH ins AS (
+            SELECT hospital_id, code, payer_family, median(negotiated_dollar) AS dollar
             FROM headline WHERE segment = 'Commercial'
-            GROUP BY ALL HAVING count(*) >= 3
+            GROUP BY ALL
+        ),
+        base AS (
+            SELECT hospital_id, code, median(dollar) AS typical
+            FROM ins GROUP BY ALL HAVING count(*) >= 3
         ),
         rel AS (
-            SELECT n.payer_family, n.hospital_id, n.code, n.negotiated_dollar / b.hosp_code_median AS rel
-            FROM headline n JOIN base b USING (hospital_id, code)
-            WHERE n.segment = 'Commercial'
+            SELECT i.payer_family, i.hospital_id, i.code, i.dollar / b.typical AS rel
+            FROM ins i JOIN base b USING (hospital_id, code)
         )
         SELECT payer_family,
                count(DISTINCT hospital_id) AS hospitals,
-               count(*) AS plan_code_rates,
-               round(median(rel), 2) AS index_vs_typical_commercial,
+               count(*) AS hospital_code_pairs,
+               round(median(rel), 2) AS index_vs_typical_insurer,
                round(quantile_cont(rel, 0.25), 2) AS p25,
                round(quantile_cont(rel, 0.75), 2) AS p75
         FROM rel
         GROUP BY ALL
         HAVING count(DISTINCT hospital_id) >= {min_h}
-        ORDER BY index_vs_typical_commercial DESC
+        ORDER BY index_vs_typical_insurer DESC
+    """.format(min_h=MIN_HOSPITALS_FOR_INDEX),
+    # The same index under three ways of counting, because the top of the ranking depends on it
+    "payer_index_sensitivity": """
+        WITH plans AS (
+            SELECT hospital_id, code, payer_family, negotiated_dollar AS dollar
+            FROM headline WHERE segment = 'Commercial'
+        ),
+        ins AS (SELECT hospital_id, code, payer_family, median(dollar) AS dollar FROM plans GROUP BY ALL),
+        base_plans AS (SELECT hospital_id, code, median(dollar) AS typical FROM plans GROUP BY ALL HAVING count(*) >= 3),
+        base_ins AS (SELECT hospital_id, code, median(dollar) AS typical FROM ins GROUP BY ALL HAVING count(*) >= 3),
+        by_plan AS (
+            SELECT payer_family, median(dollar / typical) AS idx, count(DISTINCT hospital_id) AS hospitals
+            FROM plans JOIN base_plans USING (hospital_id, code) GROUP BY 1
+        ),
+        rel_ins AS (SELECT payer_family, hospital_id, dollar / typical AS rel FROM ins JOIN base_ins USING (hospital_id, code)),
+        by_insurer AS (
+            SELECT payer_family, median(rel) AS idx, count(DISTINCT hospital_id) AS hospitals FROM rel_ins GROUP BY 1
+        ),
+        by_hospital AS (
+            SELECT payer_family, median(r) AS idx FROM (
+                SELECT payer_family, hospital_id, median(rel) AS r FROM rel_ins GROUP BY ALL
+            ) GROUP BY 1
+        )
+        SELECT i.payer_family, i.hospitals,
+               round(p.idx, 2) AS each_plan_row_counted,
+               round(i.idx, 2) AS one_rate_per_insurer_hospital_code,
+               round(h.idx, 2) AS each_hospital_weighted_equally
+        FROM by_insurer i JOIN by_plan p USING (payer_family) JOIN by_hospital h USING (payer_family)
+        WHERE i.hospitals >= {min_h}
+        ORDER BY one_rate_per_insurer_hospital_code DESC
     """.format(min_h=MIN_HOSPITALS_FOR_INDEX),
     "chargemaster": """
         SELECT i.hospital_id, h.hospital_name, i.proc_family, i.code, i.label,

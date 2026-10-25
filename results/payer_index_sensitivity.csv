@@ -1,0 +1,8 @@
+payer_family,hospitals,each_plan_row_counted,one_rate_per_insurer_hospital_code,each_hospital_weighted_equally
+EmblemHealth,8,1.0,1.51,1.17
+UnitedHealthcare,9,1.47,1.16,1.23
+Cigna,5,1.25,1.16,1.17
+Anthem / Empire BCBS,9,0.96,1.0,1.0
+Aetna,7,1.0,0.97,1.0
+Oscar,3,0.76,0.73,0.73
+MVP,4,0.62,0.61,0.58
