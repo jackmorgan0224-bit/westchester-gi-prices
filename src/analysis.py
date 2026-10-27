@@ -6,11 +6,14 @@ dollars here, and no blanks are filled. Prices are expressed as a multiple of wh
 traditional Medicare pays the same hospital for the same code (OPPS, wage-adjusted), which
 puts a $950 procedure and a $1,960 procedure on one scale.
 
-Commercial comparisons use case rates only (one price for the whole outpatient visit).
-Fee-schedule lines price a single chargemaster line, so mixing them in would compare a
-whole visit at one hospital with one line of the bill at another. Medicare Advantage and
-Medicaid plans are almost all paid by fee schedule tied to government rates, so every
-basis is kept for them. The `headline` view below applies that rule.
+Commercial and Exchange comparisons use case rates only (one price for the whole
+outpatient visit). Fee-schedule lines price a single chargemaster line, so mixing them in
+would compare a whole visit at one hospital with one line of the bill at another. Exchange
+products are commercial products sold on the individual market, so they get the same rule;
+with every basis kept, the Exchange colonoscopy median was 1.4x Medicare, but its case
+rates alone are 2.7x. Medicare Advantage, Medicaid, and Essential Plan products are almost
+all paid by fee schedule tied to government rates, so every basis is kept for them. The
+`headline` view below applies that rule.
 
 Outputs in results/:
 - segment_summary.csv        each code x segment: median % of Medicare across all plans
@@ -29,11 +32,14 @@ import duckdb
 ROOT = Path(__file__).resolve().parents[1]
 RESULTS = ROOT / "results"
 MIN_HOSPITALS_FOR_INDEX = 3
+# Segments compared on whole-visit case rates only (see module docstring)
+CASE_RATE_SEGMENTS = "('Commercial', 'Exchange (individual/small group)')"
+CASE_RATE_RULE = f"(segment NOT IN {CASE_RATE_SEGMENTS} OR price_basis = 'case rate')"
 
-HEADLINE_VIEW = """
+HEADLINE_VIEW = f"""
     CREATE OR REPLACE TEMP VIEW headline AS
     SELECT * FROM negotiated
-    WHERE core AND (segment <> 'Commercial' OR price_basis = 'case rate')
+    WHERE core AND {CASE_RATE_RULE}
 """
 
 QUERIES = {

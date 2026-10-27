@@ -24,21 +24,23 @@ Hospitals must now publish the prices they negotiate with each insurer. I pulled
 | Diagnostic colonoscopy | Median rate | Multiple of Medicare |
 |---|---|---|
 | Commercial (employer plans, whole-visit rates) | $4,724 | **4.1x** |
-| Exchange (individual market) | $1,637 | 1.4x |
+| Exchange (individual market, whole-visit rates) | $3,084 | 2.7x |
 | NY Essential Plan | $1,602 | 1.4x |
 | Medicare Advantage | $1,155 | **1.0x** |
 | Medicaid managed care | $917 | **0.8x** |
 
-Of these five, commercial pays the most and Medicaid the least for all 11 procedures studied.
+Of these five, commercial pays the most and Medicaid the least for all 11 procedures studied. Commercial and Exchange plans are compared on whole-visit case rates only; the government-program segments are mostly paid by fee schedules tied to government rates, so all their rates are kept ([why](docs/methods.md#which-rows-count-as-the-price)).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/figures/fig1_segments_dark.png">
-  <img alt="Diagnostic colonoscopy rates as a multiple of Medicare by segment. Commercial median 4.1x, exchange 1.4x, Essential Plan 1.4x, Medicare Advantage 1.0x, Medicaid managed care 0.8x." src="docs/figures/fig1_segments_light.png" width="720">
+  <img alt="Diagnostic colonoscopy rates as a multiple of Medicare by segment. Commercial median 4.1x, exchange 2.7x, Essential Plan 1.4x, Medicare Advantage 1.0x, Medicaid managed care 0.8x." src="docs/figures/fig1_segments_light.png" width="720">
 </picture>
 
 ### 2. The hospital matters: $1,322 to $6,803 for the same procedure
 
 The median commercial price for a diagnostic colonoscopy runs from **$1,322 at St. John's Riverside** to **$6,803 at NYP Westchester**, about 5x apart. Moving one colonoscopy from a ~$6,500 hospital to a ~$3,100 one saves more than Medicare pays for the whole procedure.
+
+**For a patient,** this matters before the deductible is met: in-network, they pay the negotiated rate until then. Screening colonoscopies are generally free in-network under the ACA, but a diagnostic one is not, and the hospital fee alone has a median of about $1,300 at St. John's Riverside versus about $6,800 at NYP Westchester, before the doctor's and anesthesia bills.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/figures/fig2_hospitals_dark.png">

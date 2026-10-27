@@ -104,3 +104,15 @@ def test_json_nyp_hudson_valley():
 def test_payer_classification(hospital, payer, plan, family, segment):
     got = classify(hospital, payer, plan)
     assert (got["payer_family"], got["segment"]) == (family, segment)
+
+
+@pytest.mark.skipif(not DB.exists(), reason="database not built")
+def test_commercial_and_exchange_compare_case_rates_only():
+    # Single fee-schedule lines would pull the Exchange median down to 1.4x Medicare
+    from analysis import HEADLINE_VIEW
+    con = duckdb.connect(str(DB), read_only=True)
+    con.execute(HEADLINE_VIEW)
+    bases = con.execute("""SELECT DISTINCT price_basis FROM headline
+                           WHERE segment IN ('Commercial', 'Exchange (individual/small group)')""").fetchall()
+    con.close()
+    assert bases == [("case rate",)]

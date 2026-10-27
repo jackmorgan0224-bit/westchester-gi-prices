@@ -15,6 +15,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 import pandas as pd  # noqa: E402
 
+from analysis import CASE_RATE_RULE  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 FIG = ROOT / "docs" / "figures"
 RESULTS = ROOT / "results"
@@ -62,9 +64,9 @@ def finish(fig, ax, t, title, subtitle, name, mode):
 def fig_segments(con, mode):
     """Every plan's diagnostic colonoscopy rate, as a multiple of Medicare, by segment."""
     t = THEMES[mode]
-    df = con.sql("""
+    df = con.sql(f"""
         SELECT segment, pct_of_medicare FROM negotiated
-        WHERE code = '45378' AND (segment <> 'Commercial' OR price_basis = 'case rate')
+        WHERE code = '45378' AND {CASE_RATE_RULE}
     """).df()
     fig, ax = plt.subplots(figsize=(8.5, 4.6))
     fig.subplots_adjust(left=0.2, right=0.97, top=0.8, bottom=0.12)
@@ -88,7 +90,7 @@ def fig_segments(con, mode):
     style(ax, t)
     finish(fig, ax, t, "One diagnostic colonoscopy, priced as a multiple of Medicare",
            "Each dot is one plan's published rate at one of 10 Westchester hospitals. Line = median.\n"
-           f"Commercial = whole-visit case rates. {off_edge} commercial rates above 12x are off the right edge.",
+           f"Commercial and Exchange = whole-visit case rates. {off_edge} commercial rates above 12x are off the right edge.",
            "fig1_segments", mode)
 
 

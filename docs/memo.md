@@ -13,7 +13,7 @@ For a commercial plan, the price of a routine colonoscopy in Westchester depends
 | Diagnostic colonoscopy (45378) | Median rate | Multiple of Medicare | Middle half |
 |---|---|---|---|
 | Commercial (case rates) | $4,724 | 4.1x | 2.7x to 5.8x |
-| Exchange (individual market) | $1,637 | 1.4x | 1.1x to 2.6x |
+| Exchange (individual market, case rates) | $3,084 | 2.7x | 2.6x to 3.4x |
 | NY Essential Plan | $1,602 | 1.4x | 0.9x to 1.9x |
 | Medicare Advantage | $1,155 | 1.0x | 0.9x to 1.0x |
 | Medicaid managed care | $917 | 0.8x | 0.7x to 0.9x |
